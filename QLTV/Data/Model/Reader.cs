@@ -16,7 +16,7 @@ namespace QLTV.Data.Model
         public string ReaderAddress { get; set; }
         public string IdentityCard { get; set; }
         public DateTime StartDay { get; set; }
-        public DateTime? EndDay { get; set; }
+        public DateTime EndDay { get; set; }
         public int? BooksBorrowed { get; set; }
         public int? BorrowedTime { get; set; }
         public decimal? Deposit { get; set; }
