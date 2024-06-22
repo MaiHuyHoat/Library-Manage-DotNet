@@ -3,7 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table class="w-100">
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 110px">&nbsp;</td>
             <td style="width: 338px">&nbsp;</td>
             <td style="width: 135px">&nbsp;</td>
@@ -13,7 +13,7 @@
             <td rowspan="2" style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 110px">&nbsp;</td>
             <td style="width: 338px">&nbsp;</td>
             <td style="width: 135px">&nbsp;</td>
@@ -21,7 +21,7 @@
             <td style="width: 39px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px;"></td>
+            <td style="width: 446px;"></td>
             <td colspan="5" style="background-color: rgb(75, 83, 102)">
                 <asp:Label ID="Label14" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Thao tác" ForeColor="White"></asp:Label>
             </td>
@@ -29,7 +29,7 @@
             <td rowspan="2" style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px; height: 21px;"></td>
+            <td style="width: 446px; height: 21px;"></td>
             <td style="width: 110px; height: 21px;"></td>
             <td style="width: 338px; height: 21px;"></td>
             <td style="width: 135px; height: 21px;"></td>
@@ -37,7 +37,7 @@
             <td style="width: 39px; height: 21px;"></td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 110px">&nbsp;</td>
             <td style="width: 338px">&nbsp;</td>
             <td style="width: 135px">&nbsp;</td>
@@ -47,7 +47,7 @@
             <td rowspan="2" style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="height: 21px; width: 462px"></td>
+            <td style="height: 21px; width: 446px"></td>
             <td style="height: 21px; width: 110px">
                 <asp:Label ID="Label5" runat="server" Font-Bold="True" Text="Tên sách : "></asp:Label>
             </td>
@@ -65,7 +65,7 @@
                 </td>
         </tr>
         <tr>
-            <td style="width: 462px; height: 32px;"></td>
+            <td style="width: 446px; height: 32px;"></td>
             <td style="width: 110px; height: 32px;">
                 <asp:Label ID="Label7" runat="server" Font-Bold="True" Text="Thể loại : "></asp:Label>
             </td>
@@ -86,7 +86,7 @@
             <td rowspan="2" style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px; height: 25px;"></td>
+            <td style="width: 446px; height: 25px;"></td>
             <td style="width: 110px; height: 25px;">
                 <asp:Label ID="Label8" runat="server" Font-Bold="True" Text="Tác giả:"></asp:Label>
             </td>
@@ -105,7 +105,7 @@
                 </td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 110px">
                 <asp:Label ID="Label13" runat="server" Font-Bold="True" Text="Nhà xuất bản: "></asp:Label>
             </td>
@@ -127,7 +127,7 @@
             <td rowspan="2" style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="height: 25px; width: 462px;"></td>
+            <td style="height: 25px; width: 446px;"></td>
             <td style="width: 110px; height: 25px;">
                 <asp:Label ID="Label4" runat="server" Font-Bold="True" Text="ID : " Visible="False"></asp:Label>
             </td>
@@ -141,7 +141,7 @@
             <td style="height: 25px; width: 39px"></td>
         </tr>
         <tr>
-            <td style="height: 27px; width: 462px;"></td>
+            <td style="height: 27px; width: 446px;"></td>
             <td style="width: 110px; height: 27px;"></td>
             <td style="width: 338px; height: 27px;">&nbsp;</td>
             <td style="width: 135px; height: 27px;">
@@ -153,7 +153,7 @@
             <td rowspan="2" style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-    <td style="width: 462px;"></td>
+    <td style="width: 446px;"></td>
     <td colspan="5" style="background-color: rgb(75, 83, 102)">
         <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Danh sách " ForeColor="White"></asp:Label>
     </td>
@@ -161,7 +161,7 @@
     <td rowspan="2" style="width: 122px">&nbsp;</td>
 </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 110px; height: 24px;" rowspan="2"></td>
             <td style="width: 338px; height: 24px;" rowspan="2"></td>
             <td style="width: 135px; height: 24px;" rowspan="2"></td>
@@ -171,10 +171,10 @@
             <td style="height: 24px; width: 122px;" rowspan="2"></td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 110px">
                 <asp:Label ID="Label16" runat="server" Font-Bold="True" Text="Ngày tạo :"></asp:Label>
             </td>
@@ -196,7 +196,7 @@
             <td style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 110px; height: 39px;">
                 <asp:Label ID="Label18" runat="server" Font-Bold="True" Text="Thể loại :"></asp:Label>
             </td>
@@ -215,7 +215,7 @@
             <td style="height: 39px; width: 122px;"></td>
         </tr>
           <tr>
-      <td style="width: 462px; height: 43px;"></td>
+      <td style="width: 446px; height: 43px;"></td>
       <td style="width: 110px; height: 43px;"></td>
       <td style="width: 338px; height: 43px;"></td>
       <td style="height: 43px;"></td>
@@ -224,7 +224,7 @@
       <td style="height: 43px; width: 67px;"></td>
   </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
            <%-- <td style="width: 679px">&nbsp;</td>--%>
             <td colspan="5" rowspan="10">
                 <asp:GridView ID="GridViewSach" runat="server" AllowSorting="True" AutoGenerateSelectButton="True" CellPadding="4" Width="1161px" AutoGenerateColumns="False" ForeColor="#333333" GridLines="None" OnPageIndexChanged="GridViewSach_PageIndexChanged" OnPageIndexChanging="GridViewSach_PageIndexChanging" AllowPaging="True" OnSelectedIndexChanged="GridViewSach_SelectedIndexChanged1">
@@ -259,12 +259,12 @@
             <td style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 67px">&nbsp;</td>
             <td style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td rowspan="2" style="width: 462px">&nbsp;</td>
+            <td rowspan="2" style="width: 446px">&nbsp;</td>
             <td style="width: 67px">&nbsp;</td>
             <td style="width: 122px">&nbsp;</td>
         </tr>
@@ -275,31 +275,31 @@
             <td style="width: 170px" rowspan="7">&nbsp;</td>
         </tr>
         <tr>
-            <td style="height: 31px; width: 462px;"></td>
+            <td style="height: 31px; width: 446px;"></td>
             <td style="width: 679px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 679px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 679px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="height: 24px; width: 462px;"></td>
+            <td style="height: 24px; width: 446px;"></td>
             <td style="width: 679px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="height: 24px; width: 462px;"></td>
+            <td style="height: 24px; width: 446px;"></td>
             <td style="width: 679px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 679px">&nbsp;</td>
         </tr>
         <tr>
-            <td style="width: 462px">&nbsp;</td>
+            <td style="width: 446px">&nbsp;</td>
             <td style="width: 110px">&nbsp;</td>
             <td colspan="2">&nbsp;</td>
             <td>&nbsp;</td>

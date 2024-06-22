@@ -74,7 +74,7 @@ namespace QLTV.Module.TaiNguyen.Sach
                 Category = data.category.Name ?? "Trống",
                 Author = data.author.Name ?? "Trống",
                 Price = data.book.Price.ToString(),
-                CreatedDate = data.book.CreateDay.ToString("dd-MM-yyyy")
+                CreatedDate = data.book.CreateDay.ToString("dd-MM-yyyy HH:mm:ss")
             }).ToList();
 
             DataTable dataTable = new DataTable();
@@ -328,10 +328,7 @@ namespace QLTV.Module.TaiNguyen.Sach
 
         protected void GridViewSach_PageIndexChanged(object sender, EventArgs e)
         {
-            //int pageIndex = int.Parse((sender as LinkButton).CommandArgument);
-            //Dictionary<string, string> constraint = new Dictionary<string, string>();
-            //if (!string.IsNullOrEmpty(this.TextBoxSearch.Text)) constraint.Add("pageing", pageIndex.ToString());
-            //this.loadData(constraint);
+            
 
         }
 
