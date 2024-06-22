@@ -53,18 +53,18 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="/Module/TaiNguyen/Sach/index.aspx">Sách</a></li>
-                                <li><a class="dropdown-item" href="/Module/TaiNguyen/TacGia/index.aspx">Thể loại </a></li>
-                                <li><a class="dropdown-item" href="#">Tác giả </a></li>
-                                <li><a class="dropdown-item" href="#">Nhà xuất bản </a></li>
+                                <li><a class="dropdown-item" href="/Module/TaiNguyen/TheLoai/index.aspx">Thể loại </a></li>
+                                <li><a class="dropdown-item" href="/Module/TaiNguyen/TacGia/index.aspx">Tác giả </a></li>
+                                <li><a class="dropdown-item" href="/Module/TaiNguyen/NhaXuatBan/index.aspx">Nhà xuất bản </a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Quản lý mượn trả
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Độc giả</a></li>
-                                <li><a class="dropdown-item" href="#">Mượn/Trả sách </a></li>
-                                <li><a class="dropdown-item" href="#">Lịch sử mượn/trả </a></li>
+                                <li><a class="dropdown-item" href="/Module/MuonTra/DocGia/index.aspx">Độc giả</a></li>
+                                <li><a class="dropdown-item" href="/Module/MuonTra/MuonSach/index.aspx">Mượn/Trả sách </a></li>
+                                <li><a class="dropdown-item" href="/Module/MuonTra/LichSu/index.aspx">Lịch sử mượn/trả </a></li>
 
                             </ul>
                         </li>

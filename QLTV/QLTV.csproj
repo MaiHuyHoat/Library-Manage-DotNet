@@ -201,8 +201,11 @@
     <Content Include="Global.asax" />
     <Content Include="Module\MuonTra\DocGia\index.aspx" />
     <Content Include="Module\MuonTra\MuonSach\index.aspx" />
+    <Content Include="Module\TaiNguyen\NhaXuatBan\index.aspx" />
     <Content Include="Module\TaiNguyen\Sach\index.aspx" />
     <Content Include="Module\TaiNguyen\TacGia\index.aspx" />
+    <Content Include="Module\TaiNguyen\TheLoai\index.aspx" />
+    <Content Include="Module\TaiNguyen\TheLoai\index2.aspx" />
     <Content Include="Resources\css\adminlte.css" />
     <Content Include="Resources\css\adminlte.min.css" />
     <Content Include="Resources\css\adminlte.min_1.css" />
@@ -3866,6 +3869,13 @@
     <Compile Include="Module\MuonTra\MuonSach\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Module\TaiNguyen\NhaXuatBan\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\TaiNguyen\NhaXuatBan\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Module\TaiNguyen\Sach\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3879,6 +3889,20 @@
     </Compile>
     <Compile Include="Module\TaiNguyen\TacGia\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Module\TaiNguyen\TheLoai\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\TaiNguyen\TheLoai\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Module\TaiNguyen\TheLoai\index2.aspx.cs">
+      <DependentUpon>index2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\TaiNguyen\TheLoai\index2.aspx.designer.cs">
+      <DependentUpon>index2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
