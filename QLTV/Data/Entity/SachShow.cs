@@ -11,11 +11,11 @@ namespace QLTV.Data.Entity
         public int Id { get; set; }
         public string PathImage { get; set; }
         public string Name { get; set; }
-
+        public int NumberOffPages { get; set; }
         public int Amount { get; set; }  
         public string Category { get; set; }  
         public string Author { get; set; }
-
+        public string Publisher { get; set; }
         public string Price { get; set; }
         public String CreatedDate { get; set; }
        
