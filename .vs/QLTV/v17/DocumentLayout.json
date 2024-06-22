@@ -7,11 +7,15 @@
       "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\dashboard\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|d:\\webform\\library-manage-dotnet\\qltv\\module\\tainguyen\\tacgia\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|D:\\WebForm\\Library-Manage-DotNet\\qltv\\module\\tainguyen\\tacgia\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\tacgia\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|d:\\webform\\library-manage-dotnet\\qltv\\module\\tainguyen\\tacgia\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|D:\\WebForm\\Library-Manage-DotNet\\qltv\\module\\dashboard\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\dashboard\\dashboard.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|D:\\WebForm\\Library-Manage-DotNet\\qltv\\module\\tainguyen\\tacgia\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\tacgia\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,20 +46,32 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.aspx.cs",
+              "DocumentMoniker": "D:\\WebForm\\Library-Manage-DotNet\\QLTV\\Module\\Dashboard\\Dashboard.aspx.cs",
+              "RelativeDocumentMoniker": "QLTV\\Module\\Dashboard\\Dashboard.aspx.cs",
+              "ToolTip": "D:\\WebForm\\Library-Manage-DotNet\\QLTV\\Module\\Dashboard\\Dashboard.aspx.cs",
+              "RelativeToolTip": "QLTV\\Module\\Dashboard\\Dashboard.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T14:21:33.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "index.aspx",
               "DocumentMoniker": "D:\\WebForm\\Library-Manage-DotNet\\QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx",
               "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx",
               "ToolTip": "D:\\WebForm\\Library-Manage-DotNet\\QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx",
               "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-06-16T10:33:04.811Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "index.aspx.cs",
               "DocumentMoniker": "D:\\WebForm\\Library-Manage-DotNet\\QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx.cs",
               "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx.cs",
