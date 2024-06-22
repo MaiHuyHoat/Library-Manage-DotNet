@@ -205,6 +205,7 @@
     <Content Include="Global.asax" />
 <<<<<<< HEAD
     <Content Include="Module\MuonTra\DocGia\index.aspx" />
+<<<<<<< HEAD
     <Content Include="Module\TaiNguyen\NhaXuatBan\index.aspx" />
 =======
     <Content Include="Module\Dashboard\dường_kẻ-removebg-preview.png" />
@@ -214,6 +215,9 @@
     <Content Include="Module\Dashboard\profit.png" />
     <Content Include="Module\Dashboard\refresh-page-option %281%29.png" />
 >>>>>>> 530ba251ec2a90045de89cce286bb9090da6f27e
+=======
+    <Content Include="Module\MuonTra\MuonSach\index.aspx" />
+>>>>>>> 0e4d14e03830e665dc8e895bccc55669cb4d35ca
     <Content Include="Module\TaiNguyen\Sach\index.aspx" />
     <Content Include="Module\TaiNguyen\TacGia\index.aspx" />
     <Content Include="Module\TaiNguyen\TacGia\index2.aspx" />
@@ -3875,11 +3879,19 @@
     <Compile Include="Module\MuonTra\DocGia\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Module\TaiNguyen\NhaXuatBan\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Module\TaiNguyen\NhaXuatBan\index.aspx.designer.cs">
+=======
+    <Compile Include="Module\MuonTra\MuonSach\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\MuonTra\MuonSach\index.aspx.designer.cs">
+>>>>>>> 0e4d14e03830e665dc8e895bccc55669cb4d35ca
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
     <Compile Include="Module\TaiNguyen\Sach\index.aspx.cs">
@@ -3945,7 +3957,6 @@
     <Folder Include="Module\BaoCao\" />
     <Folder Include="Module\Login\" />
     <Folder Include="Module\MuonTra\LichSu\" />
-    <Folder Include="Module\MuonTra\MuonSach\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

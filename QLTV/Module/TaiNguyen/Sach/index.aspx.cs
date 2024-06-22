@@ -74,7 +74,7 @@ namespace QLTV.Module.TaiNguyen.Sach
                 Category = data.category.Name ?? "Trống",
                 Author = data.author.Name ?? "Trống",
                 Price = data.book.Price.ToString(),
-                CreatedDate = data.book.CreateDay.ToString("dd-MM-yyyy")
+                CreatedDate = data.book.CreateDay.ToString("dd-MM-yyyy HH:mm:ss")
             }).ToList();
 
             DataTable dataTable = new DataTable();
@@ -226,17 +226,99 @@ namespace QLTV.Module.TaiNguyen.Sach
 
         protected void ButtonSua_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(this.TextBoxTen.Text) || 
+                string.IsNullOrEmpty(TextBoxID.Text) ||
+                string.IsNullOrEmpty(TextBoxSoLuong.Text)|| 
+                string.IsNullOrEmpty(TextBoxSoTrang.Text)||
+                string.IsNullOrEmpty(TextBoxGia.Text))
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Bạn cần nhập đủ thông tin ')", true);
+            }
+            else
+            {
 
+                string tenSach = this.TextBoxTen.Text;
+                decimal gia = decimal.Parse(TextBoxGia.Text.ToString());
+                int soTrang = Int16.Parse(TextBoxSoTrang.Text.ToString());
+                int soLuong = Int16.Parse(TextBoxSoLuong.Text.ToString());
+                int idBook = Int16.Parse(TextBoxID.Text.ToString());
+               
+
+
+                Book model = this.dbContext.Book.FirstOrDefault(b => b.Id == idBook);
+                model.Name = tenSach;
+                model.Price = gia;
+                model.NumberOffPages = soTrang;
+                model.Amount = soLuong;
+                model.Image = this.FileUploadImage.FileName;
+                String publisherName = this.DropDownListNhaXuatBan.SelectedItem.ToString();
+                model.PublisherId = dbContext.Publisher.Where(p => p.Name.Equals(publisherName, StringComparison.OrdinalIgnoreCase)).Select(p => p.Id).FirstOrDefault();
+                String authorName = this.DropDownListTacGia.SelectedItem.ToString();
+                model.AuthorId = dbContext.Author.Where(a => a.Name.Equals(authorName, StringComparison.OrdinalIgnoreCase)).Select(a => a.Id).FirstOrDefault();
+
+                string categoryName = this.DropDownListTheLoai.SelectedItem.ToString();
+                model.CategoryId = dbContext.Category.Where(c => c.Name.Equals(categoryName, StringComparison.OrdinalIgnoreCase)).Select(c => c.Id).FirstOrDefault();
+                string destinationPath = Path.Combine(this.destinationFolder, model.Image);
+                this.FileUploadImage.SaveAs(destinationPath);
+
+                try
+                {
+
+
+                    this.dbContext.SaveChanges();
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Sửa sách thành công ')", true);
+                    this.ButtonHuy_Click(sender, e);
+                    loadData(null);
+                }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Trace.WriteLine("Lỗi : " + ex);
+                }
+
+
+
+
+            }
         }
 
         protected void ButtonXoa_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(TextBoxID.Text))
+            {
+                ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Bạn cần nhập đủ thông tin ')", true);
+            }
+            else
+            {
 
+                try
+                {
+                    int idBook = Int16.Parse(TextBoxID.Text);
+
+
+                    Book model = dbContext.Book.FirstOrDefault(a => a.Id == idBook);
+                    model.Deleted = 1;
+                    dbContext.SaveChanges();
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Xoá sách thành công ')", true);
+                    this.ButtonHuy_Click(sender, e);
+                    this.loadData(null);
+                }
+                catch (Exception ex)
+                {
+                    System.Diagnostics.Trace.WriteLine("Lỗi : " + ex);
+                }
+            }
         }
 
         protected void ButtonHuy_Click(object sender, EventArgs e)
         {
-
+            this.TextBoxTen.Text = "";
+            TextBoxID.Text = "";
+            TextBoxGia.Text = "";
+            TextBoxSoLuong.Text = "";
+            TextBoxSoTrang.Text = "";
+            DropDownListNhaXuatBan.SelectedItem.Text = "Chọn nhà xuất bản";
+            DropDownListTacGia.SelectedItem.Text = "Tất cả";
+            DropDownListTheLoai.SelectedItem.Text = "Tất cả";
         }
 
         protected void GridViewSach_SelectedIndexChanged(object sender, EventArgs e)
@@ -246,10 +328,7 @@ namespace QLTV.Module.TaiNguyen.Sach
 
         protected void GridViewSach_PageIndexChanged(object sender, EventArgs e)
         {
-            //int pageIndex = int.Parse((sender as LinkButton).CommandArgument);
-            //Dictionary<string, string> constraint = new Dictionary<string, string>();
-            //if (!string.IsNullOrEmpty(this.TextBoxSearch.Text)) constraint.Add("pageing", pageIndex.ToString());
-            //this.loadData(constraint);
+            
 
         }
 
@@ -269,6 +348,50 @@ namespace QLTV.Module.TaiNguyen.Sach
         protected void GridViewSach_SelectedIndexChanging(object sender, GridViewSelectEventArgs e)
         {
 
+        }
+        protected void GridViewSach_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            var query = from book in dbContext.Book
+                        join category in dbContext.Category on book.CategoryId equals category.Id
+                        join author in dbContext.Author on book.AuthorId equals author.Id
+                        join publisher in dbContext.Publisher on book.PublisherId equals publisher.Id
+                        where book.Deleted == 0
+                        select new { book, category, author, publisher };
+            List<SachShow> listData = query.Select(data => new SachShow
+            {
+                Id = data.book.Id,
+                PathImage = ResolveUrl("~/Resources/image/" + data.book.Image),
+                Name = data.book.Name,
+                Amount = data.book.Amount,
+                NumberOffPages = (int)data.book.NumberOffPages,
+                Category = data.category.Name,
+                Author = data.author.Name,
+                Publisher = data.publisher.Name,
+                Price = data.book.Price.ToString(),
+            }).ToList();
+            List<Publisher> list = dbContext.Publisher.ToList();
+            if (GridViewSach.SelectedRow != null) // Check for selected row
+            {
+                int selectedId = Convert.ToInt32(GridViewSach.SelectedRow.Cells[1].Text); // Assuming ID is in the first column
+
+                // No need for additional query or TextBoxTen validation (commented out)
+
+                // Access data from listData based on selectedId (assuming you have populated listData before)
+                SachShow selectedBook = listData.FirstOrDefault(b => b.Id == selectedId);
+
+                if (selectedBook != null) // Check if a matching book is found
+                {
+                    TextBoxID.Text = selectedBook.Id.ToString();
+                    TextBoxTen.Text = selectedBook.Name;
+                    TextBoxSoLuong.Text = selectedBook.Amount.ToString(); // Assuming Amount is an integer
+                    TextBoxSoTrang.Text = selectedBook.NumberOffPages.ToString(); // Assuming you have data for number of pages
+                    DropDownListNhaXuatBan.SelectedItem.Text = selectedBook.Publisher; // Assuming you have logic to set selected value
+                    DropDownListTacGia.SelectedItem.Text = selectedBook.Author; // Assuming you have logic to set selected value
+                    DropDownListTheLoai.SelectedItem.Text = selectedBook.Category; // Assuming you have logic to set selected value
+                    TextBoxGia.Text = selectedBook.Price;
+                    //string destinationPath = selectedBook.PathImage;
+                }
+            }
         }
 
         protected void TextBoxTen_TextChanged(object sender, EventArgs e)
