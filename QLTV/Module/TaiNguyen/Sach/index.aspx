@@ -105,22 +105,22 @@
                 </td>
         </tr>
         <tr>
-            <td style="width: 446px">&nbsp;</td>
-            <td style="width: 110px">
+            <td style="width: 446px; height: 21px;"></td>
+            <td style="width: 110px; height: 21px;">
                 <asp:Label ID="Label13" runat="server" Font-Bold="True" Text="Nhà xuất bản: "></asp:Label>
             </td>
             <td style="width: 338px; height: 21px">
                 <asp:DropDownList ID="DropDownListNhaXuatBan" runat="server" Width="129px">
                 </asp:DropDownList>
             </td>
-            <td style="width: 135px;">
+            <td style="width: 135px; height: 21px;">
                 <asp:Label ID="Label11" runat="server" Font-Bold="True" Text="Ảnh : "></asp:Label>
                 <asp:Image ID="Image1" runat="server" />
             </td>
-            <td>
+            <td style="height: 21px">
                 <asp:FileUpload ID="FileUploadImage" runat="server" />
             </td>
-            <td style="width: 39px">
+            <td style="width: 39px; height: 21px;">
                 <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" />
             </td>
             <td rowspan="2" style="width: 67px">&nbsp;</td>
