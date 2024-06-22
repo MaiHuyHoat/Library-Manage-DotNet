@@ -199,6 +199,7 @@
     <Content Include="Module\Dashboard\Dashboard.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Module\MuonTra\DocGia\index.aspx" />
     <Content Include="Module\TaiNguyen\Sach\index.aspx" />
     <Content Include="Module\TaiNguyen\TacGia\index.aspx" />
     <Content Include="Resources\css\adminlte.css" />
@@ -3850,6 +3851,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Module\MuonTra\DocGia\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\MuonTra\DocGia\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Module\TaiNguyen\Sach\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3891,7 +3899,8 @@
     <Folder Include="App_Data\" />
     <Folder Include="Module\BaoCao\" />
     <Folder Include="Module\Login\" />
-    <Folder Include="Module\MuonTra\" />
+    <Folder Include="Module\MuonTra\LichSu\" />
+    <Folder Include="Module\MuonTra\MuonSach\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
