@@ -196,11 +196,24 @@
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Module\Dashboard\a1.jpg" />
+    <Content Include="Module\Dashboard\a2.jpg" />
+    <Content Include="Module\Dashboard\a3.jpg" />
+    <Content Include="Module\Dashboard\book.png" />
     <Content Include="Module\Dashboard\Dashboard.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+<<<<<<< HEAD
     <Content Include="Module\MuonTra\DocGia\index.aspx" />
     <Content Include="Module\TaiNguyen\NhaXuatBan\index.aspx" />
+=======
+    <Content Include="Module\Dashboard\dường_kẻ-removebg-preview.png" />
+    <Content Include="Module\Dashboard\living-room-books-group %281%29.png" />
+    <Content Include="Module\Dashboard\more.png" />
+    <Content Include="Module\Dashboard\open-book.png" />
+    <Content Include="Module\Dashboard\profit.png" />
+    <Content Include="Module\Dashboard\refresh-page-option %281%29.png" />
+>>>>>>> 530ba251ec2a90045de89cce286bb9090da6f27e
     <Content Include="Module\TaiNguyen\Sach\index.aspx" />
     <Content Include="Module\TaiNguyen\TacGia\index.aspx" />
     <Content Include="Module\TaiNguyen\TacGia\index2.aspx" />
