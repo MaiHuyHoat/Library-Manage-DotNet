@@ -39,17 +39,17 @@ namespace QLTV.Module.TaiNguyen.TacGia
 
         }
 
-        protected void GridViewSach_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         protected void GridViewSach_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
 
         }
 
         protected void GridViewSach_PageIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void GridViewSach_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

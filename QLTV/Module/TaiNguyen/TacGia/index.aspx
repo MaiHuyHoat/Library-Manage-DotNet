@@ -84,7 +84,7 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Button ID="ButtonXoa" runat="server" CssClass="btn btn-danger  mt-2" OnClick="ButtonXoa_Click" Text="Xoá" Width="100px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" Width="100px" />
+                <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" Width="100px" style="height: 29px" />
             </td>
             <td class="auto-style69">
                 &nbsp;</td>

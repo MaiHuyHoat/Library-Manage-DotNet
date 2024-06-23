@@ -51,6 +51,7 @@ F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\roslyn\vbc.rsp
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\roslyn\VBCSCompiler.exe
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\roslyn\VBCSCompiler.exe.config
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Antlr3.Runtime.dll
+F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\EPPlus.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.AspNet.FriendlyUrls.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
@@ -70,6 +71,7 @@ F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.Extensions.Logging.Abstract
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.Extensions.Logging.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.Extensions.Options.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.Extensions.Primitives.dll
+F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.IO.RecyclableMemoryStream.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.ScriptManager.MSAjax.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.ScriptManager.WebForms.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.Web.Infrastructure.dll
@@ -86,6 +88,7 @@ F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\System.Numerics.Vectors.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\System.Runtime.CompilerServices.Unsafe.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\System.Web.Optimization.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\WebGrease.dll
+F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\EPPlus.xml
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.EntityFrameworkCore.xml
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.EntityFrameworkCore.Design.xml
@@ -102,6 +105,7 @@ F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.Extensions.Logging.xml
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.Extensions.Logging.Abstractions.xml
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.Extensions.Options.xml
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.Extensions.Primitives.xml
+F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Microsoft.IO.RecyclableMemoryStream.xml
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\Remotion.Linq.xml
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\System.Buffers.xml
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\System.Collections.Immutable.xml
@@ -120,3 +124,5 @@ F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\obj\Debug\QLTV.csproj.CoreCompileInputs.c
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\obj\Debug\QLTV.csproj.Up2Date
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\obj\Debug\QLTV.dll
 F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\obj\Debug\QLTV.pdb
+F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\EPPlus.Interfaces.dll
+F:\Dai_Hoc\Ky_9\.net\project\QLTV\QLTV\bin\EPPlus.System.Drawing.dll

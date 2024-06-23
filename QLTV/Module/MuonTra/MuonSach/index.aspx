@@ -1,10 +1,10 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="QLTV.Module.MuonTra.MuonSach.index" %>
+﻿<%@ Page Title="" Language="C#" Async="true" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="QLTV.Module.MuonTra.MuonSach.index" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <table class="w-100">
         <tr>
             <td>&nbsp;</td>
-            <td style="width: 166px">&nbsp;</td>
+            <td style="width: 212px">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -21,7 +21,7 @@
         </tr>
         <tr>
             <td>&nbsp;</td>
-            <td style="width: 166px">&nbsp;</td>
+            <td style="width: 212px">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -29,32 +29,60 @@
             <td style="width: 12px">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
+       
         <tr>
-            <td>&nbsp;</td>
-            <td style="width: 166px">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td style="width: 12px">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td style="height: 39px"></td>
+            <td style="width: 212px; height: 39px;">
+                <asp:Label ID="LabelCheDo" runat="server" Font-Bold="True" Font-Size="25pt" Text="Mượn sách"></asp:Label>
+            </td>
+            <td style="height: 39px">
+                <asp:TextBox ID="TextBoxCheDo" runat="server" Visible="False">muon</asp:TextBox>
+            </td>
+            <td style="height: 39px">
+                <asp:Button ID="ButtonMuon" runat="server" CssClass="btn btn-success" OnClick="ButtonMuon_Click" Text="Mượn" Width="141px" />
+            </td>
+            <td style="height: 39px">
+                <asp:Button ID="ButtonTra" runat="server" CssClass="btn btn-warning" OnClick="ButtonTra_Click" Text="Trả" Width="125px" />
+            </td>
+            <td style="height: 39px">
+            </td>
+            <td style="width: 12px; height: 39px;"></td>
+            <td style="height: 39px"></td>
         </tr>
+         <tr>
+     <td>&nbsp;</td>
+     <td style="width: 212px">&nbsp;</td>
+     <td>&nbsp;</td>
+     <td>&nbsp;</td>
+     <td>
+      
+                <asp:Label ID="Label37" runat="server" Font-Bold="True" Text="ID" Visible="False"></asp:Label>
+      
+     </td>
+     <td>
+        
+                <asp:TextBox ID="TextBoxIDReader" runat="server" Visible="False"></asp:TextBox>
+        
+     </td>
+     <td style="width: 12px">&nbsp;</td>
+     <td>&nbsp;</td>
+ </tr>
         <tr>
             <td>&nbsp;</td>
-            <td rowspan="8" style="width: 166px">
-                <asp:ImageButton ID="ImageButton1" runat="server" Height="184px" Width="210px" ImageUrl="~/Resources/image/book.png" />
+            <td rowspan="8" style="width: 212px">
+                <asp:ImageButton ID="ImageButtonBook" runat="server" Height="212px" Width="194px" ImageUrl="~/Resources/image/book.png" />
             </td>
             <td>
                 <asp:Label ID="Label15" runat="server" Font-Bold="True" Text="Mã sách: "></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox1" runat="server" Width="213px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxMaSach" runat="server" Width="219px" Height="25px"></asp:TextBox>
             </td>
             <td>
                 <asp:Label ID="Label22" runat="server" Font-Bold="True" Text="Số CMT: "></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox5" runat="server" Width="213px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxCMT" runat="server" Width="219px"></asp:TextBox>
             </td>
             <td style="width: 12px">
                 <asp:Button ID="ButtonTraCuu" runat="server" CssClass="btn btn-primary" OnClick="ButtonTraCuu_Click" Text="Tra cứu" />
@@ -67,37 +95,35 @@
                 <asp:Label ID="Label16" runat="server" Font-Bold="True" Text="Tên sách : "></asp:Label>
             </td>
             <td style="height: 27px">
-                <asp:TextBox ID="TextBox2" runat="server" Width="211px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxTenSach" runat="server" Width="219px" Height="25px"></asp:TextBox>
             </td>
             <td style="height: 27px">
                 <asp:Label ID="Label23" runat="server" Font-Bold="True" Text="Tên độc giả: "></asp:Label>
             </td>
             <td style="height: 27px">
-                <asp:TextBox ID="TextBox6" runat="server" Width="213px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxTenDocGia" runat="server" Width="219px"></asp:TextBox>
             </td>
             <td style="height: 27px; width: 12px">&nbsp;</td>
             <td style="height: 27px"></td>
         </tr>
         <tr>
-            <td style="height: 27px"></td>
-            <td style="height: 27px">
+            <td style="height: 35px"></td>
+            <td style="height: 35px">
                 <asp:Label ID="Label17" runat="server" Font-Bold="True" Text="Thể loại: "></asp:Label>
             </td>
-            <td style="height: 27px">
-                <asp:DropDownList ID="DropDownList1" runat="server" Width="225px">
+            <td style="height: 35px">
+                <asp:DropDownList ID="DropDownListTheLoai" runat="server" Width="219px" Height="25px">
                 </asp:DropDownList>
             </td>
-            <td style="height: 27px">
+            <td style="height: 35px">
                 <asp:Label ID="Label24" runat="server" Font-Bold="True" Text="Chức vụ : "></asp:Label>
             </td>
-            <td style="height: 27px">
-                <asp:DropDownList ID="DropDownList4" runat="server" Width="225px">
+            <td style="height: 35px">
+                <asp:DropDownList ID="DropDownListChucVu" runat="server" Width="219px">
                 </asp:DropDownList>
             </td>
-            <td style="height: 27px; width: 12px">
-                <asp:Button ID="ButtonMuon" runat="server" CssClass="btn btn-success" OnClick="ButtonMuon_Click" Text="Mượn" />
-            </td>
-            <td style="height: 27px"></td>
+            <td style="height: 35px; width: 12px"></td>
+            <td style="height: 35px"></td>
         </tr>
         <tr>
             <td style="height: 22px"></td>
@@ -105,7 +131,7 @@
                 <asp:Label ID="Label18" runat="server" Font-Bold="True" Text="Tác giả : "></asp:Label>
             </td>
             <td style="height: 22px">
-                <asp:DropDownList ID="DropDownList2" runat="server" Width="225px">
+                <asp:DropDownList ID="DropDownListTacGia" runat="server" Width="219px">
                 </asp:DropDownList>
             </td>
             <td style="height: 22px">
@@ -118,7 +144,7 @@
                 <asp:Label ID="Label30" runat="server" CssClass="m2" Text="Ngày" Font-Bold="True"></asp:Label>
             </td>
             <td style="height: 22px; width: 12px">
-                <asp:Button ID="ButtonTra" runat="server" CssClass="btn btn-warning" OnClick="ButtonTra_Click" Text="Trả" />
+                <asp:Button ID="Button1" runat="server" Text="Xác nhận" OnClick="Button1_Click" />
             </td>
             <td style="height: 22px"></td>
         </tr>
@@ -128,19 +154,21 @@
                 <asp:Label ID="Label19" runat="server" Font-Bold="True" Text="Nhà xuất bản  : "></asp:Label>
             </td>
             <td style="height: 21px">
-                <asp:DropDownList ID="DropDownList3" runat="server" Width="225px">
+                <asp:DropDownList ID="DropDownListNhaXuatBan" runat="server" Width="219px">
                 </asp:DropDownList>
             </td>
             <td style="height: 21px">
                 <asp:Label ID="Label26" runat="server" Font-Bold="True" Text="Số sách đã mượn  : "></asp:Label>
             </td>
             <td style="height: 21px">
-                <asp:TextBox ID="TextBoxSoSach0" runat="server" Width="73px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxSoSachDaMuon" runat="server" Width="73px"></asp:TextBox>
                 <asp:Label ID="Label31" runat="server" CssClass="m-2" Text="Sách" Font-Bold="True"></asp:Label>
-                <asp:TextBox ID="TextBoxSoNgay0" runat="server" Width="73px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxSoNgay2" runat="server" Width="73px"></asp:TextBox>
                 <asp:Label ID="Label32" runat="server" CssClass="m2" Text="Ngày" Font-Bold="True"></asp:Label>
             </td>
-            <td style="height: 21px; width: 12px"></td>
+            <td style="height: 21px; width: 12px">
+                <asp:Button ID="ButtonHuy" runat="server" CssClass="btn btn-danger" OnClick="ButtonHuy_Click" Text="Huỷ" />
+            </td>
             <td style="height: 21px"></td>
         </tr>
         <tr>
@@ -149,13 +177,13 @@
                 <asp:Label ID="Label20" runat="server" Font-Bold="True" Text="Ngày xuất bản : "></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox3" runat="server" TextMode="DateTimeLocal" Width="211px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxNgayXuatBan" runat="server" TextMode="DateTimeLocal" Width="219px"></asp:TextBox>
             </td>
             <td>
                 <asp:Label ID="Label27" runat="server" Font-Bold="True" Text="Ngày tạo : "></asp:Label>
             </td>
             <td>
-                <asp:TextBox ID="TextBox7" runat="server" TextMode="DateTimeLocal" Width="211px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxNgayTao" runat="server" TextMode="DateTimeLocal" Width="219px"></asp:TextBox>
             </td>
             <td style="width: 12px">&nbsp;</td>
             <td>&nbsp;</td>
@@ -166,43 +194,82 @@
                 <asp:Label ID="Label21" runat="server" Font-Bold="True" Text="Giá : "></asp:Label>
             </td>
             <td style="height: 21px">
-                <asp:TextBox ID="TextBox4" runat="server" Width="213px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxGia" runat="server" Width="219px"></asp:TextBox>
             </td>
             <td style="height: 21px">
                 <asp:Label ID="Label28" runat="server" Font-Bold="True" Text="Ngày hết hạn: "></asp:Label>
             </td>
             <td style="height: 21px">
-                <asp:TextBox ID="TextBox8" runat="server" TextMode="DateTimeLocal" Width="211px"></asp:TextBox>
+                <asp:TextBox ID="TextBoxNgayHetHan" runat="server" TextMode="DateTimeLocal" Width="219px"></asp:TextBox>
             </td>
             <td style="height: 21px; width: 12px"></td>
             <td style="height: 21px"></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
-            <td style="width: 12px">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td style="height: 6px"></td>
+            <td style="height: 6px"></td>
+            <td style="height: 6px"></td>
+            <td style="height: 6px"></td>
+            <td style="height: 6px"></td>
+            <td style="width: 12px; height: 6px;"></td>
+            <td style="height: 6px"></td>
+        </tr>
+        <tr style="min-height:10px">
+            <td></td>
+            <td ></td>
+            <td style="background-color: rgb(137, 146, 138)">
+                <asp:Label ID="Label38" runat="server" ForeColor="#89928A" Text="=="></asp:Label>
+            </td>
+            <td  style="background-color: rgb(137, 146, 138)"></td>
+            <td  style="background-color: rgb(137, 146, 138)"></td>
+            <td style="background-color: rgb(137, 146, 138)"></td>
+            <td ></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td style="width: 166px">&nbsp;</td>
-            <td>&nbsp;</td>
-            <td>
+            <td style="height: 40px"></td>
+            <td style="width: 212px; height: 40px;"></td>
+            <td style="height: 40px">
                 <asp:Label ID="Label33" runat="server" Font-Bold="True" Text="Hạn trả sách : "></asp:Label>
             </td>
-            <td>
-                <asp:TextBox ID="TextBox9" runat="server" TextMode="DateTimeLocal" Width="211px"></asp:TextBox>
+            <td style="height: 40px">
+                <asp:TextBox ID="TextBoxDueDate" runat="server" TextMode="DateTimeLocal" Width="219px"></asp:TextBox>
             </td>
-            <td>&nbsp;</td>
-            <td style="width: 12px">&nbsp;</td>
-            <td>&nbsp;</td>
+            <td style="height: 40px">
+                <asp:Label ID="LabelReturnDate" runat="server" Font-Bold="True" Text="Ngày trả : " Visible="False"></asp:Label>
+            </td>
+            <td style="height: 40px">
+                <asp:TextBox ID="TextBoxReturnDate" runat="server" TextMode="DateTimeLocal" Width="219px" Visible="False" OnTextChanged="TextBoxReturnDate_TextChanged" AutoPostBack="true"></asp:TextBox>
+            </td>
+            <td style="width: 12px; height: 40px;"></td>
+            <td style="height: 40px"></td>
+        </tr>
+        <tr>
+            <td style="height: 31px"></td>
+            <td style="width: 212px; height: 31px;"></td>
+            <td style="height: 31px">
+                <asp:Label ID="LabelTinhTrangTraSach" runat="server" Font-Bold="True" Text="Tình trạng trả sách : " Visible="False"></asp:Label>
+            </td>
+            <td style="height: 31px">
+                <asp:DropDownList ID="DropDownListTinhTrangTraSach" runat="server" OnSelectedIndexChanged="DropDownListTinhTrangTraSach_SelectedIndexChanged" Visible="False" Width="219px" AutoPostBack="true">
+                    <asp:ListItem Selected="True">Bình thường</asp:ListItem>
+                    <asp:ListItem>Xấu</asp:ListItem>
+                    <asp:ListItem>Quá hạn</asp:ListItem>
+                    <asp:ListItem>Phải bồi thường</asp:ListItem>
+                </asp:DropDownList>
+            </td>
+            <td style="height: 31px">
+                <asp:Label ID="LabelTienBoiThuong" runat="server" Font-Bold="True" Text="Số tiền phải bồi thường  : " Visible="False"></asp:Label>
+            </td>
+            <td style="height: 31px">
+                <asp:TextBox ID="TextBoxTienBoiThuong" runat="server" Visible="False"></asp:TextBox>
+                <asp:Label ID="LabelDong" runat="server" Font-Bold="True" Text="Đồng" Visible="False"></asp:Label>
+            </td>
+            <td style="width: 12px; height: 31px;"></td>
+            <td style="height: 31px"></td>
         </tr>
         <tr>
             <td>&nbsp;</td>
-            <td style="width: 166px">&nbsp;</td>
+            <td style="width: 212px">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -219,7 +286,39 @@
         </tr>
         <tr>
             <td>&nbsp;</td>
-            <td style="width: 166px">&nbsp;</td>
+            <td style="width: 212px">
+                <asp:Label ID="Label39" runat="server" Font-Bold="True" Text="IDBorrow" Visible="False"></asp:Label>
+            </td>
+            <td>
+                <asp:TextBox ID="TextBoxIDBowrow" runat="server" Visible="False"></asp:TextBox>
+            </td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td style="width: 12px">&nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td colspan="2">
+                <asp:Label ID="Label35" runat="server" Font-Bold="True" Text="Ngày mượn: "></asp:Label>
+                <asp:DropDownList ID="DropDownListNgayTao" runat="server" Width="225px">
+                </asp:DropDownList>
+            </td>
+            <td colspan="2">
+                <asp:Label ID="Label36" runat="server" Font-Bold="True" Text="Số CMT: "></asp:Label>
+                <asp:TextBox ID="TextBoxCMTDS" runat="server" Width="213px"></asp:TextBox>
+            </td>
+            <td>
+                <asp:Button ID="ButtonTimKiem" runat="server" OnClick="ButtonTimKiem_Click" Text="Tìm kiếm" />
+            </td>
+            <td style="width: 12px">
+                &nbsp;</td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td style="width: 212px">&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
@@ -227,42 +326,11 @@
             <td style="width: 12px">&nbsp;</td>
             <td>&nbsp;</td>
         </tr>
-          <tr>
-      <td>&nbsp;</td>
-      <td style="width: 166px">
-                <asp:Label ID="Label35" runat="server" Font-Bold="True" Text="Ngày tạo : "></asp:Label>
-              </td>
-      <td>
-                <asp:DropDownList ID="DropDownListNgayTao" runat="server" Width="225px">
-                </asp:DropDownList>
-              </td>
-      <td>&nbsp;</td>
-      <td>
-                <asp:Label ID="Label36" runat="server" Font-Bold="True" Text="Số CMT: "></asp:Label>
-              </td>
-      <td>
-                <asp:TextBox ID="TextBoxSoCMTDS" runat="server" Width="213px"></asp:TextBox>
-              </td>
-      <td style="width: 12px">
-                <asp:Button ID="ButtonTimKiem" runat="server" OnClick="ButtonTimKiem_Click" Text="Tìm kiếm" />
-              </td>
-      <td>&nbsp;</td>
-  </tr>
-                <tr>
-    <td>&nbsp;</td>
-    <td style="width: 166px">&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td style="width: 12px">&nbsp;</td>
-    <td>&nbsp;</td>
-</tr>
         <tr>
             <td>&nbsp;</td>
             <td colspan="6" rowspan="4">
 
-                <asp:GridView ID="GridViewData" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" Width="1291px" AllowPaging="True" AutoGenerateSelectButton="True">
+                <asp:GridView ID="GridViewData" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" Width="1291px" AllowPaging="True" AutoGenerateSelectButton="True" OnSelectedIndexChanged="GridViewData_SelectedIndexChanged">
                     <Columns>
                         <asp:BoundField DataField="ID" HeaderText="ID" />
                         <asp:TemplateField HeaderText="Ảnh">
@@ -275,7 +343,8 @@
                         <asp:BoundField DataField="Chứng minh thư" HeaderText="Chứng minh thư" />
                         <asp:BoundField DataField="Ngày mượn" HeaderText="Ngày mượn" />
                         <asp:BoundField DataField="Hạn trả" HeaderText="Hạn trả" />
-                      
+                        
+
                     </Columns>
                     <AlternatingRowStyle BackColor="White" />
                     <EditRowStyle BackColor="#2461BF" />
