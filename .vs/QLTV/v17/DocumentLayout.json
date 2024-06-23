@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|f:\\dai_hoc\\ky_9\\.net\\project\\qltv\\qltv\\module\\tainguyen\\tacgia\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\MuonTra\\MuonSach\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:QLTV\\Module\\MuonTra\\MuonSach\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|f:\\dai_hoc\\ky_9\\.net\\project\\qltv\\qltv\\module\\muontra\\muonsach\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\muontra\\muonsach\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\qltv\\module\\tainguyen\\tacgia\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\tainguyen\\tacgia\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|f:\\dai_hoc\\ky_9\\.net\\project\\qltv\\qltv\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\qltv\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:qltv\\site.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|f:\\dai_hoc\\ky_9\\.net\\project\\qltv\\qltv\\module\\muontra\\muonsach\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:qltv\\module\\muontra\\muonsach\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\MuonTra\\DocGia\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\MuonTra\\DocGia\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:QLTV\\Module\\MuonTra\\DocGia\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\MuonTra\\MuonSach\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|solutionrelative:QLTV\\Module\\MuonTra\\MuonSach\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9E90D711-FC36-4EAB-A45B-024A998B1BF2}|QLTV\\QLTV.csproj|F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Data\\Entity\\SachShow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -82,20 +82,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "index.aspx",
               "DocumentMoniker": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx",
               "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx",
               "ToolTip": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx",
               "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-22T13:03:35.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T13:03:35.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Site.Master",
               "DocumentMoniker": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Site.Master",
               "RelativeDocumentMoniker": "QLTV\\Site.Master",
@@ -108,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "index.aspx.cs",
               "DocumentMoniker": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\MuonTra\\DocGia\\index.aspx.cs",
               "RelativeDocumentMoniker": "QLTV\\Module\\MuonTra\\DocGia\\index.aspx.cs",
@@ -116,25 +115,24 @@
               "RelativeToolTip": "QLTV\\Module\\MuonTra\\DocGia\\index.aspx.cs",
               "ViewState": "AQIAAEQAAAAAAAAAAAAAAFEBAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T11:57:22.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:57:22.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "index.aspx.cs",
               "DocumentMoniker": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\MuonTra\\MuonSach\\index.aspx.cs",
               "RelativeDocumentMoniker": "QLTV\\Module\\MuonTra\\MuonSach\\index.aspx.cs",
               "ToolTip": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\MuonTra\\MuonSach\\index.aspx.cs",
               "RelativeToolTip": "QLTV\\Module\\MuonTra\\MuonSach\\index.aspx.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAnwHoAAAAHAAAA",
+              "ViewState": "AQIAALEAAAAAAAAAAAAawIIBAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T11:57:22.377Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "index.aspx",
               "DocumentMoniker": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\MuonTra\\DocGia\\index.aspx",
               "RelativeDocumentMoniker": "QLTV\\Module\\MuonTra\\DocGia\\index.aspx",
@@ -142,12 +140,11 @@
               "RelativeToolTip": "QLTV\\Module\\MuonTra\\DocGia\\index.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-22T11:57:22.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:57:22.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "index.aspx",
               "DocumentMoniker": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\MuonTra\\MuonSach\\index.aspx",
               "RelativeDocumentMoniker": "QLTV\\Module\\MuonTra\\MuonSach\\index.aspx",
@@ -160,7 +157,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "index.aspx.cs",
               "DocumentMoniker": "F:\\Dai_Hoc\\Ky_9\\.net\\project\\QLTV\\QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx.cs",
               "RelativeDocumentMoniker": "QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx.cs",
@@ -168,8 +165,7 @@
               "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\TacGia\\index.aspx.cs",
               "ViewState": "AQIAACIAAAAAAAAAAAAawDUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T11:57:22.391Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:57:22.391Z"
             },
             {
               "$type": "Document",
@@ -181,8 +177,7 @@
               "RelativeToolTip": "QLTV\\Data\\Entity\\SachShow.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T11:57:22.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:57:22.396Z"
             },
             {
               "$type": "Document",
@@ -194,8 +189,7 @@
               "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\index.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-22T11:57:22.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:57:22.401Z"
             },
             {
               "$type": "Document",
@@ -207,8 +201,7 @@
               "RelativeToolTip": "QLTV\\Module\\TaiNguyen\\Sach\\index.aspx.cs",
               "ViewState": "AQIAABEAAAAAAAAAAAAQwEYAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T11:57:22.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:57:22.406Z"
             },
             {
               "$type": "Document",
@@ -220,8 +213,7 @@
               "RelativeToolTip": "QLTV\\Data\\Model\\DBContext.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAowJYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T11:57:22.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:57:22.409Z"
             },
             {
               "$type": "Document",
@@ -233,8 +225,7 @@
               "RelativeToolTip": "QLTV\\Data\\Model\\Book.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-22T11:57:22.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-22T11:57:22.413Z"
             }
           ]
         }
