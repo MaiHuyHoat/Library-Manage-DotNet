@@ -96,22 +96,22 @@ namespace QLTV
         protected global::System.Web.UI.WebControls.Image Image9;
 
         /// <summary>
-        /// Label19 control.
+        /// LabelSachTrongThuVien control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label19;
+        protected global::System.Web.UI.WebControls.Label LabelSachTrongThuVien;
 
         /// <summary>
-        /// Label20 control.
+        /// Label99 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label20;
+        protected global::System.Web.UI.WebControls.Label Label99;
 
         /// <summary>
         /// Image10 control.
@@ -159,13 +159,13 @@ namespace QLTV
         protected global::System.Web.UI.WebControls.Image Image3;
 
         /// <summary>
-        /// Label7 control.
+        /// LabelSachDaChoMuon control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
+        protected global::System.Web.UI.WebControls.Label LabelSachDaChoMuon;
 
         /// <summary>
         /// Label8 control.
@@ -222,13 +222,13 @@ namespace QLTV
         protected global::System.Web.UI.WebControls.Image Image5;
 
         /// <summary>
-        /// Label11 control.
+        /// LabelSachDaTraLai control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label11;
+        protected global::System.Web.UI.WebControls.Label LabelSachDaTraLai;
 
         /// <summary>
         /// Label12 control.
@@ -285,13 +285,13 @@ namespace QLTV
         protected global::System.Web.UI.WebControls.Image Image7;
 
         /// <summary>
-        /// Label15 control.
+        /// LabelSoTienThuDuoc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label15;
+        protected global::System.Web.UI.WebControls.Label LabelSoTienThuDuoc;
 
         /// <summary>
         /// Label16 control.
@@ -328,15 +328,6 @@ namespace QLTV
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Panel Panel8;
-
-        /// <summary>
-        /// Image11 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image11;
 
         /// <summary>
         /// Label22 control.
@@ -384,15 +375,6 @@ namespace QLTV
         protected global::System.Web.UI.WebControls.Panel Panel9;
 
         /// <summary>
-        /// Image14 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image14;
-
-        /// <summary>
         /// Label25 control.
         /// </summary>
         /// <remarks>
@@ -438,15 +420,6 @@ namespace QLTV
         protected global::System.Web.UI.WebControls.Panel Panel10;
 
         /// <summary>
-        /// Image16 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image Image16;
-
-        /// <summary>
         /// Label28 control.
         /// </summary>
         /// <remarks>
@@ -481,5 +454,32 @@ namespace QLTV
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label30;
+
+        /// <summary>
+        /// HiddenFieldStackArea control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox HiddenFieldStackArea;
+
+        /// <summary>
+        /// HiddenFieldBasicChart control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox HiddenFieldBasicChart;
+
+        /// <summary>
+        /// HiddenFieldPieChart control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox HiddenFieldPieChart;
     }
 }
