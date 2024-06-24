@@ -90,7 +90,15 @@ namespace QLTV.Module.TaiNguyen.NhaXuatBan
 
         protected void GridViewSach_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
+            GridViewSach.PageIndex = e.NewPageIndex;
+            Dictionary<string, string> constraint = new Dictionary<string, string>();
 
+            if (!string.IsNullOrEmpty(this.SearchPublisher.Text))
+            {
+                constraint.Add("name", this.SearchPublisher.Text);
+            }
+
+            loadData(constraint);
         }
 
         protected void GridViewSach_SelectedIndexChanged(object sender, EventArgs e)
@@ -189,7 +197,7 @@ namespace QLTV.Module.TaiNguyen.NhaXuatBan
         {
 
             Dictionary<string, string> constraint = new Dictionary<string, string>();
-            if (!string.IsNullOrEmpty(this.TextBox1.Text)) constraint.Add("name", this.TextBox1.Text);
+            if (!string.IsNullOrEmpty(this.SearchPublisher.Text)) constraint.Add("name", this.SearchPublisher.Text);
             this.loadData(constraint);
         }
     }

@@ -205,7 +205,6 @@
     <Content Include="Module\TaiNguyen\Sach\index.aspx" />
     <Content Include="Module\TaiNguyen\TacGia\index.aspx" />
     <Content Include="Module\TaiNguyen\TheLoai\index.aspx" />
-    <Content Include="Module\TaiNguyen\TheLoai\index2.aspx" />
     <Content Include="Resources\css\adminlte.css" />
     <Content Include="Resources\css\adminlte.min.css" />
     <Content Include="Resources\css\adminlte.min_1.css" />
@@ -287,6 +286,17 @@
     <Content Include="Resources\img\avatar5_1.png" />
     <Content Include="Resources\img\avatar\avatar.png" />
     <Content Include="Resources\img\avatar_1.jpg" />
+    <Content Include="Resources\img\chart\a1.jpg" />
+    <Content Include="Resources\img\chart\a2.jpg" />
+    <Content Include="Resources\img\chart\a3.jpg" />
+    <Content Include="Resources\img\chart\book.png" />
+    <Content Include="Resources\img\chart\data-analysis.png" />
+    <Content Include="Resources\img\chart\data-processing.png" />
+    <Content Include="Resources\img\chart\living-room-books-group %281%29.png" />
+    <Content Include="Resources\img\chart\magnifying-glass.png" />
+    <Content Include="Resources\img\chart\more.png" />
+    <Content Include="Resources\img\chart\open-book.png" />
+    <Content Include="Resources\img\chart\profit.png" />
     <Content Include="Resources\img\logo\logo.png" />
     <Content Include="Resources\img\products\360-dong-tu-bat-quy-tac-day-du.jpg" />
     <Content Include="Resources\img\products\360-dong-tu-bat-quy-tac-day-du_1.jpg" />
@@ -3896,13 +3906,6 @@
     </Compile>
     <Compile Include="Module\TaiNguyen\TheLoai\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Module\TaiNguyen\TheLoai\index2.aspx.cs">
-      <DependentUpon>index2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Module\TaiNguyen\TheLoai\index2.aspx.designer.cs">
-      <DependentUpon>index2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
