@@ -72,9 +72,9 @@
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Báo cáo thống kê
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Tình hình phục vụ </a></li>
-                                <li><a class="dropdown-item" href="#">Sách ít sử dụng  </a></li>
-                                <li><a class="dropdown-item" href="#">Độc giả hết hạn </a></li>
+                                <li><a class="dropdown-item" href="/Module/BaoCao/TinhHinhPhucVu/index.aspx">Tình hình phục vụ </a></li>
+                                <li><a class="dropdown-item" href="/Module/BaoCao/SachItSuDung/index.aspx">Sách ít sử dụng  </a></li>
+                                <li><a class="dropdown-item" href="/Module/BaoCao/DocGiaHetHan/index.aspx">Độc giả hết hạn </a></li>
 
                             </ul>
                         </li>

@@ -24,13 +24,67 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label14;
 
         /// <summary>
-        /// ImageButton1 control.
+        /// LabelCheDo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
+        protected global::System.Web.UI.WebControls.Label LabelCheDo;
+
+        /// <summary>
+        /// TextBoxCheDo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxCheDo;
+
+        /// <summary>
+        /// ButtonMuon control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonMuon;
+
+        /// <summary>
+        /// ButtonTra control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonTra;
+
+        /// <summary>
+        /// Label37 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label37;
+
+        /// <summary>
+        /// TextBoxIDReader control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxIDReader;
+
+        /// <summary>
+        /// ImageButtonBook control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton ImageButtonBook;
 
         /// <summary>
         /// Label15 control.
@@ -42,13 +96,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label15;
 
         /// <summary>
-        /// TextBox1 control.
+        /// TextBoxMaSach control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxMaSach;
 
         /// <summary>
         /// Label22 control.
@@ -60,13 +114,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label22;
 
         /// <summary>
-        /// TextBox5 control.
+        /// TextBoxCMT control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox5;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxCMT;
 
         /// <summary>
         /// ButtonTraCuu control.
@@ -87,13 +141,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label16;
 
         /// <summary>
-        /// TextBox2 control.
+        /// TextBoxTenSach control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxTenSach;
 
         /// <summary>
         /// Label23 control.
@@ -105,13 +159,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label23;
 
         /// <summary>
-        /// TextBox6 control.
+        /// TextBoxTenDocGia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox6;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxTenDocGia;
 
         /// <summary>
         /// Label17 control.
@@ -123,13 +177,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label17;
 
         /// <summary>
-        /// DropDownList1 control.
+        /// DropDownListTheLoai control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListTheLoai;
 
         /// <summary>
         /// Label24 control.
@@ -141,22 +195,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label24;
 
         /// <summary>
-        /// DropDownList4 control.
+        /// DropDownListChucVu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList4;
-
-        /// <summary>
-        /// ButtonMuon control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonMuon;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListChucVu;
 
         /// <summary>
         /// Label18 control.
@@ -168,13 +213,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label18;
 
         /// <summary>
-        /// DropDownList2 control.
+        /// DropDownListTacGia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList2;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListTacGia;
 
         /// <summary>
         /// Label25 control.
@@ -222,13 +267,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label30;
 
         /// <summary>
-        /// ButtonTra control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonTra;
+        protected global::System.Web.UI.WebControls.Button Button1;
 
         /// <summary>
         /// Label19 control.
@@ -240,13 +285,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label19;
 
         /// <summary>
-        /// DropDownList3 control.
+        /// DropDownListNhaXuatBan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListNhaXuatBan;
 
         /// <summary>
         /// Label26 control.
@@ -258,13 +303,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label26;
 
         /// <summary>
-        /// TextBoxSoSach0 control.
+        /// TextBoxSoSachDaMuon control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxSoSach0;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxSoSachDaMuon;
 
         /// <summary>
         /// Label31 control.
@@ -276,13 +321,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label31;
 
         /// <summary>
-        /// TextBoxSoNgay0 control.
+        /// TextBoxSoNgay2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxSoNgay0;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxSoNgay2;
 
         /// <summary>
         /// Label32 control.
@@ -294,6 +339,15 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label32;
 
         /// <summary>
+        /// ButtonHuy control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonHuy;
+
+        /// <summary>
         /// Label20 control.
         /// </summary>
         /// <remarks>
@@ -303,13 +357,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label20;
 
         /// <summary>
-        /// TextBox3 control.
+        /// TextBoxNgayXuatBan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxNgayXuatBan;
 
         /// <summary>
         /// Label27 control.
@@ -321,13 +375,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label27;
 
         /// <summary>
-        /// TextBox7 control.
+        /// TextBoxNgayTao control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox7;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxNgayTao;
 
         /// <summary>
         /// Label21 control.
@@ -339,13 +393,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label21;
 
         /// <summary>
-        /// TextBox4 control.
+        /// TextBoxGia control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxGia;
 
         /// <summary>
         /// Label28 control.
@@ -357,13 +411,22 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label28;
 
         /// <summary>
-        /// TextBox8 control.
+        /// TextBoxNgayHetHan control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox8;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxNgayHetHan;
+
+        /// <summary>
+        /// Label38 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label38;
 
         /// <summary>
         /// Label33 control.
@@ -375,13 +438,76 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label33;
 
         /// <summary>
-        /// TextBox9 control.
+        /// TextBoxDueDate control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox9;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxDueDate;
+
+        /// <summary>
+        /// LabelReturnDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelReturnDate;
+
+        /// <summary>
+        /// TextBoxReturnDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxReturnDate;
+
+        /// <summary>
+        /// LabelTinhTrangTraSach control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelTinhTrangTraSach;
+
+        /// <summary>
+        /// DropDownListTinhTrangTraSach control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListTinhTrangTraSach;
+
+        /// <summary>
+        /// LabelTienBoiThuong control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelTienBoiThuong;
+
+        /// <summary>
+        /// TextBoxTienBoiThuong control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxTienBoiThuong;
+
+        /// <summary>
+        /// LabelDong control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label LabelDong;
 
         /// <summary>
         /// Label34 control.
@@ -391,6 +517,24 @@ namespace QLTV.Module.MuonTra.MuonSach
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label34;
+
+        /// <summary>
+        /// Label39 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label39;
+
+        /// <summary>
+        /// TextBoxIDBowrow control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxIDBowrow;
 
         /// <summary>
         /// Label35 control.
@@ -420,13 +564,13 @@ namespace QLTV.Module.MuonTra.MuonSach
         protected global::System.Web.UI.WebControls.Label Label36;
 
         /// <summary>
-        /// TextBoxSoCMTDS control.
+        /// TextBoxCMTDS control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxSoCMTDS;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxCMTDS;
 
         /// <summary>
         /// ButtonTimKiem control.
