@@ -114,13 +114,13 @@ namespace QLTV.Module.TaiNguyen.NhaXuatBan
         protected global::System.Web.UI.WebControls.Label Label20;
 
         /// <summary>
-        /// TextBox1 control.
+        /// SearchPublisher control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox SearchPublisher;
 
         /// <summary>
         /// Button1 control.

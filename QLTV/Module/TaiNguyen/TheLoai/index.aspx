@@ -78,13 +78,13 @@
             <td class="auto-style71" style="width: 130px">
                 </td>
             <td class="auto-style69" colspan="2">
-                <asp:Button ID="ButtonThem" runat="server" CssClass="btn btn-success" OnClick="ButtonThem_Click" Text="Thêm" Width="100px" />
+                <asp:Button ID="ButtonThem" runat="server" CssClass="btn btn-success" OnClick="ButtonThem_Click" Text="Thêm" Width="100px" Height="36px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonSua" runat="server" CssClass="btn btn-warning  mt-2" OnClick="ButtonSua_Click" Text="Sửa" Width="100px" />
+                <asp:Button ID="ButtonSua" runat="server" CssClass="btn btn-warning  mt-2" OnClick="ButtonSua_Click" Text="Sửa" Width="100px" Height="36px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonXoa" runat="server" CssClass="btn btn-danger  mt-2" OnClick="ButtonXoa_Click" Text="Xoá" Width="100px" />
+                <asp:Button ID="ButtonXoa" runat="server" CssClass="btn btn-danger  mt-2" OnClick="ButtonXoa_Click" Text="Xoá" Width="100px" Height="36px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" Width="100px" />
+                <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" Width="100px" Height="36px" />
             </td>
             <td class="auto-style69">
                 &nbsp;</td>
@@ -128,12 +128,12 @@
                 <asp:Label ID="Label20" runat="server" Font-Bold="True" Text="Tên thể loại :"></asp:Label>
             </td>
             <td class="auto-style73" style="width: 54px">
-                <asp:TextBox ID="TextBox1" runat="server" Width="273px"></asp:TextBox>
+                <asp:TextBox ID="SearchCategory" runat="server" Width="273px"></asp:TextBox>
             </td>
             <td class="auto-style73" style="width: 94px">
                 &nbsp;</td>
             <td style="width: 125px">
-                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Tìm kiếm" CssClass="btn btn-warning  mt-2" Width="100px" />
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Tìm kiếm" CssClass="btn btn-warning  mt-2" Width="100px" Height="36px" />
             </td>
             <td class="auto-style66"></td>
             <td class="auto-style67"></td>
