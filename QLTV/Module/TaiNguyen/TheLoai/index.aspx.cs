@@ -91,7 +91,15 @@ namespace QLTV.Module.TaiNguyen.TheLoai
 
         protected void GridViewSach_PageIndexChanging(object sender, GridViewPageEventArgs e)
         {
+            GridViewSach.PageIndex = e.NewPageIndex;
+            Dictionary<string, string> constraint = new Dictionary<string, string>();
 
+            if (!string.IsNullOrEmpty(this.SearchCategory.Text))
+            {
+                constraint.Add("name", this.SearchCategory.Text);
+            }
+
+            loadData(constraint);
         }
 
 
@@ -142,7 +150,7 @@ namespace QLTV.Module.TaiNguyen.TheLoai
                     Category model = dbContext.Category.FirstOrDefault(a => a.Id == idCategory);
                     model.Deleted = 1;
                     dbContext.SaveChanges();
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Xoá tác giả thành công ')", true);
+                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Xoá thể loại thành công ')", true);
                     this.ButtonHuy_Click(sender, e);
                     this.loadData(null);
                 }
@@ -193,7 +201,7 @@ namespace QLTV.Module.TaiNguyen.TheLoai
         protected void Button1_Click(object sender, EventArgs e)
         {
             Dictionary<string, string> constraint = new Dictionary<string, string>();
-            if (!string.IsNullOrEmpty(this.TextBox1.Text)) constraint.Add("name", this.TextBox1.Text);
+            if (!string.IsNullOrEmpty(this.SearchCategory.Text)) constraint.Add("name", this.SearchCategory.Text);
             this.loadData(constraint);
         }
 

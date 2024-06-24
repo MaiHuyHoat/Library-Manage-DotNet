@@ -3,7 +3,7 @@
             <table class="auto-style30">
         <tr>
             <td class="auto-style31">&nbsp;</td>
-            <td class="auto-style32" style="width: 130px">&nbsp;</td>
+            <td class="auto-style32" style="width: 186px">&nbsp;</td>
             <td class="auto-style32">&nbsp;</td>
             <td class="auto-style33" style="width: 54px">&nbsp;</td>
             <td class="auto-style33" style="width: 94px">&nbsp;</td>
@@ -13,7 +13,7 @@
         </tr>
         <tr>
             <td class="auto-style31">&nbsp;</td>
-            <td class="auto-style32" style="width: 130px">&nbsp;</td>
+            <td class="auto-style32" style="width: 186px">&nbsp;</td>
             <td class="auto-style32">&nbsp;</td>
             <td class="auto-style33" style="width: 54px">&nbsp;</td>
             <td class="auto-style33" style="width: 94px">&nbsp;</td>
@@ -30,7 +30,7 @@
       
         <tr>
             <td class="auto-style10"></td>
-            <td class="auto-style43" style="width: 130px">
+            <td class="auto-style43" style="width: 186px">
                 &nbsp;</td>
             <td class="auto-style43">
                 <asp:Label ID="Label7" runat="server" Font-Bold="True" Text="ID : " Visible="False"></asp:Label>
@@ -45,7 +45,7 @@
         </tr>
         <tr>
             <td class="auto-style10"></td>
-            <td class="auto-style43" style="width: 130px">
+            <td class="auto-style43" style="width: 186px">
                 &nbsp;</td>
             <td class="auto-style43">
                 <asp:Label ID="Label19" runat="server" Font-Bold="True" Text="Tác giả :"></asp:Label>
@@ -62,7 +62,7 @@
         </tr>
         <tr>
             <td class="auto-style10"></td>
-            <td class="auto-style43" style="width: 130px">
+            <td class="auto-style43" style="width: 186px">
                 &nbsp;</td>
             <td class="auto-style43">
                 &nbsp;</td>
@@ -75,16 +75,16 @@
         </tr>
         <tr>
             <td class="auto-style70"></td>
-            <td class="auto-style71" style="width: 130px">
+            <td class="auto-style71" style="width: 186px">
                 </td>
             <td class="auto-style69" colspan="2">
-                <asp:Button ID="ButtonThem" runat="server" CssClass="btn btn-success" OnClick="ButtonThem_Click" Text="Thêm" Width="100px" />
+                <asp:Button ID="ButtonThem" runat="server" CssClass="btn btn-success" OnClick="ButtonThem_Click" Text="Thêm" Width="100px" Height="36px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonSua" runat="server" CssClass="btn btn-warning  mt-2" OnClick="ButtonSua_Click" Text="Sửa" Width="100px" />
+                <asp:Button ID="ButtonSua" runat="server" CssClass="btn btn-warning  mt-2" OnClick="ButtonSua_Click" Text="Sửa" Width="100px" Height="36px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonXoa" runat="server" CssClass="btn btn-danger  mt-2" OnClick="ButtonXoa_Click" Text="Xoá" Width="100px" />
+                <asp:Button ID="ButtonXoa" runat="server" CssClass="btn btn-danger  mt-2" OnClick="ButtonXoa_Click" Text="Xoá" Width="100px" Height="36px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" Width="100px" style="height: 29px" />
+                <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" Width="100px" Height="36px" />
             </td>
             <td class="auto-style69">
                 &nbsp;</td>
@@ -95,7 +95,7 @@
         </tr>
         <tr>
             <td class="auto-style12"></td>
-            <td class="auto-style46" style="width: 130px">
+            <td class="auto-style46" style="width: 186px">
                 </td>
             <td class="auto-style46">
                 &nbsp;</td>
@@ -122,13 +122,13 @@
                     </tr>
                 </table>
             </td>
-            <td class="auto-style52" style="width: 130px">
+            <td class="auto-style52" style="width: 186px">
             </td>
             <td class="auto-style52">
                 <asp:Label ID="Label20" runat="server" Font-Bold="True" Text="Tên tác giả :"></asp:Label>
             </td>
             <td class="auto-style73" style="width: 54px">
-                <asp:TextBox ID="TextBox1" runat="server" Width="273px"></asp:TextBox>
+                <asp:TextBox ID="SearchAuthor" runat="server" Width="273px"></asp:TextBox>
             </td>
             <td class="auto-style73" style="width: 94px">
                 &nbsp;</td>
@@ -190,7 +190,7 @@
         </tr>
         <tr>
             <td class="auto-style31">&nbsp;</td>
-            <td class="auto-style32" style="width: 130px">&nbsp;</td>
+            <td class="auto-style32" style="width: 186px">&nbsp;</td>
             <td class="auto-style32">&nbsp;</td>
             <td colspan="3" class="auto-style35">&nbsp;</td>
             <td class="auto-style35">&nbsp;</td>

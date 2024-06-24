@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
             <table class="auto-style30">
         <tr>
-            <td class="auto-style31">&nbsp;</td>
+            <td class="auto-style31" style="width: 50px">&nbsp;</td>
             <td class="auto-style32" style="width: 130px">&nbsp;</td>
             <td class="auto-style32">&nbsp;</td>
             <td class="auto-style33" style="width: 54px">&nbsp;</td>
@@ -12,7 +12,7 @@
             <td class="auto-style36">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style31">&nbsp;</td>
+            <td class="auto-style31" style="width: 50px">&nbsp;</td>
             <td class="auto-style32" style="width: 130px">&nbsp;</td>
             <td class="auto-style32">&nbsp;</td>
             <td class="auto-style33" style="width: 54px">&nbsp;</td>
@@ -22,14 +22,14 @@
             <td class="auto-style36">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style39"></td>
+            <td class="auto-style39" style="width: 50px"></td>
             <td colspan="7" style="background-color: rgb(75, 83, 102)" class="auto-style40">
                 <asp:Label ID="Label14" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Thao tác" ForeColor="White"></asp:Label>
             </td>
         </tr>
       
         <tr>
-            <td class="auto-style10"></td>
+            <td class="auto-style10" style="width: 50px"></td>
             <td class="auto-style43" style="width: 130px">
                 &nbsp;</td>
             <td class="auto-style43">
@@ -44,7 +44,7 @@
                 &nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style10"></td>
+            <td class="auto-style10" style="width: 50px"></td>
             <td class="auto-style43" style="width: 130px">
                 &nbsp;</td>
             <td class="auto-style43">
@@ -61,7 +61,7 @@
             <td rowspan="2" style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style10"></td>
+            <td class="auto-style10" style="width: 50px"></td>
             <td class="auto-style43" style="width: 130px">
                 &nbsp;</td>
             <td class="auto-style43">
@@ -74,17 +74,17 @@
                 &nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style70"></td>
+            <td class="auto-style70" style="width: 50px"></td>
             <td class="auto-style71" style="width: 130px">
                 </td>
             <td class="auto-style69" colspan="2">
-                <asp:Button ID="ButtonThem" runat="server" CssClass="btn btn-success" OnClick="ButtonThem_Click" Text="Thêm" Width="100px" />
+                <asp:Button ID="ButtonThem" runat="server" CssClass="btn btn-success" OnClick="ButtonThem_Click" Text="Thêm" Width="100px" Height="36px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonSua" runat="server" CssClass="btn btn-warning  mt-2" OnClick="ButtonSua_Click" Text="Sửa" Width="100px" />
+                <asp:Button ID="ButtonSua" runat="server" CssClass="btn btn-warning  mt-2" OnClick="ButtonSua_Click" Text="Sửa" Width="100px" Height="36px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonXoa" runat="server" CssClass="btn btn-danger  mt-2" OnClick="ButtonXoa_Click" Text="Xoá" Width="100px" />
+                <asp:Button ID="ButtonXoa" runat="server" CssClass="btn btn-danger  mt-2" OnClick="ButtonXoa_Click" Text="Xoá" Width="100px" Height="36px" />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" Width="100px" />
+                <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" Width="100px" Height="36px" />
             </td>
             <td class="auto-style69">
                 &nbsp;</td>
@@ -94,7 +94,7 @@
             <td rowspan="2" style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style12"></td>
+            <td class="auto-style12" style="width: 50px"></td>
             <td class="auto-style46" style="width: 130px">
                 </td>
             <td class="auto-style46">
@@ -106,13 +106,13 @@
             <td style="width: 125px"></td>
         </tr>
         <tr>
-    <td class="auto-style62"></td>
+    <td class="auto-style62" style="width: 50px"></td>
     <td colspan="7" style="background-color: rgb(75, 83, 102)" class="auto-style64">
         <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Danh sách " ForeColor="White"></asp:Label>
     </td>
 </tr>
         <tr>
-            <td class="auto-style65">
+            <td class="auto-style65" style="width: 50px">
                 <table class="w-100">
                     <tr>
                         <td>&nbsp;</td>
@@ -128,18 +128,18 @@
                 <asp:Label ID="Label20" runat="server" Font-Bold="True" Text="Tên Nhà Xuất Bản:"></asp:Label>
             </td>
             <td class="auto-style73" style="width: 54px">
-                <asp:TextBox ID="TextBox1" runat="server" Width="273px"></asp:TextBox>
+                <asp:TextBox ID="SearchPublisher" runat="server" Width="273px"></asp:TextBox>
             </td>
             <td class="auto-style73" style="width: 94px">
                 &nbsp;</td>
             <td style="width: 125px">
-                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Tìm kiếm" CssClass="btn btn-warning  mt-2" Width="100px" />
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Tìm kiếm" CssClass="btn btn-warning  mt-2" Width="100px" Height="36px" />
             </td>
             <td class="auto-style66"></td>
             <td class="auto-style67"></td>
         </tr>
         <tr>
-            <td class="auto-style9"></td>
+            <td class="auto-style9" style="width: 50px"></td>
            <%-- <td style="width: 679px">&nbsp;</td>--%>
             <td colspan="7" rowspan="6" class="auto-style56">
                 <asp:GridView ID="GridViewSach" runat="server" AllowSorting="True" AutoGenerateSelectButton="True" CellPadding="4" Width="1161px" AutoGenerateColumns="False" ForeColor="#333333" GridLines="None" OnPageIndexChanged="GridViewSach_PageIndexChanged" OnPageIndexChanging="GridViewSach_PageIndexChanging" AllowPaging="True" OnSelectedIndexChanged="GridViewSach_SelectedIndexChanged">
@@ -162,34 +162,34 @@
             </td>
         </tr>
         <tr>
-            <td class="auto-style10">&nbsp;</td>
+            <td class="auto-style10" style="width: 50px">&nbsp;</td>
         </tr>
         <tr>
-            <td rowspan="2" class="auto-style59">&nbsp;</td>
+            <td rowspan="2" class="auto-style59" style="width: 50px">&nbsp;</td>
         </tr>
         <tr>
             <td rowspan="7" class="auto-style61">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style15"></td>
+            <td class="auto-style15" style="width: 50px"></td>
         </tr>
         <tr>
-            <td class="auto-style62">&nbsp;</td>
+            <td class="auto-style62" style="width: 50px">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style62">&nbsp;</td>
+            <td class="auto-style62" style="width: 50px">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style62"></td>
+            <td class="auto-style62" style="width: 50px"></td>
         </tr>
         <tr>
-            <td class="auto-style62"></td>
+            <td class="auto-style62" style="width: 50px"></td>
         </tr>
         <tr>
-            <td class="auto-style62">&nbsp;</td>
+            <td class="auto-style62" style="width: 50px">&nbsp;</td>
         </tr>
         <tr>
-            <td class="auto-style31">&nbsp;</td>
+            <td class="auto-style31" style="width: 50px">&nbsp;</td>
             <td class="auto-style32" style="width: 130px">&nbsp;</td>
             <td class="auto-style32">&nbsp;</td>
             <td colspan="3" class="auto-style35">&nbsp;</td>
