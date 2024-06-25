@@ -243,6 +243,7 @@ namespace QLTV.Module.TaiNguyen.Sach
                     await this.dbContext.SaveChangesAsync();
                     ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Đã thêm sách thành công')", true);
                     this.loadData(null);
+                    ButtonHuy_Click(sender, e);
                 }
                 catch (Exception ex)
                 {
@@ -259,8 +260,8 @@ namespace QLTV.Module.TaiNguyen.Sach
                 string.IsNullOrEmpty(TextBoxSoLuong.Text)|| 
                 string.IsNullOrEmpty(TextBoxSoTrang.Text)||
                 string.IsNullOrEmpty(TextBoxGia.Text)||
-                string.IsNullOrEmpty(TextBoxNamXuatBan.Text)||
-                !FileUploadImage.HasFile)
+                string.IsNullOrEmpty(TextBoxNamXuatBan.Text)
+              )
             {
                 ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Bạn cần nhập đủ thông tin ')", true);
             }
@@ -280,7 +281,7 @@ namespace QLTV.Module.TaiNguyen.Sach
                 model.Price = gia;
                 model.NumberOffPages = soTrang;
                 model.Amount = soLuong;
-                model.Image = this.FileUploadImage.FileName;
+               
                 String publisherName = this.DropDownListNhaXuatBan.SelectedItem.ToString();
                 model.PublisherId = dbContext.Publisher.Where(p => p.Name.Equals(publisherName, StringComparison.OrdinalIgnoreCase)).Select(p => p.Id).FirstOrDefault();
                 String authorName = this.DropDownListTacGia.SelectedItem.ToString();
@@ -288,8 +289,12 @@ namespace QLTV.Module.TaiNguyen.Sach
 
                 string categoryName = this.DropDownListTheLoai.SelectedItem.ToString();
                 model.CategoryId = dbContext.Category.Where(c => c.Name.Equals(categoryName, StringComparison.OrdinalIgnoreCase)).Select(c => c.Id).FirstOrDefault();
-                string destinationPath = Path.Combine(this.destinationFolder, model.Image);
-                this.FileUploadImage.SaveAs(destinationPath);
+                if (FileUploadImage.HasFile) {
+                    model.Image = this.FileUploadImage.FileName;
+                    string destinationPath = Path.Combine(this.destinationFolder, model.Image);
+                    this.FileUploadImage.SaveAs(destinationPath);
+                }
+                
 
                 model.PublicationYear = DateTime.Parse(TextBoxNamXuatBan.Text);
 
@@ -306,7 +311,7 @@ namespace QLTV.Module.TaiNguyen.Sach
                 {
                     System.Diagnostics.Trace.WriteLine("Lỗi : " + ex);
                 }
-
+                ButtonHuy_Click(sender, e);
 
 
 
@@ -339,6 +344,7 @@ namespace QLTV.Module.TaiNguyen.Sach
                     System.Diagnostics.Trace.WriteLine("Lỗi : " + ex);
                 }
             }
+            ButtonHuy_Click(sender, e);
         }
 
         protected void ButtonHuy_Click(object sender, EventArgs e)
@@ -352,6 +358,7 @@ namespace QLTV.Module.TaiNguyen.Sach
             DropDownListTacGia.SelectedItem.Text = "Tất cả";
             DropDownListTheLoai.SelectedItem.Text = "Tất cả";
             TextBoxNamXuatBan.Text = "";
+            ImageButtonBook.ImageUrl = "~/Resources/image/book.png";
         }
 
         protected void GridViewSach_SelectedIndexChanged(object sender, EventArgs e)
