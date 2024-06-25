@@ -224,6 +224,7 @@
     <Content Include="Module\Dashboard\Dashboard.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Module\Login\Login.aspx" />
     <Content Include="Module\MuonTra\DocGia\index.aspx" />
     <Content Include="Module\MuonTra\LichSu\index.aspx" />
     <Content Include="Module\MuonTra\MuonSach\index.aspx" />
@@ -3912,6 +3913,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Module\Login\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\Login\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Module\MuonTra\DocGia\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

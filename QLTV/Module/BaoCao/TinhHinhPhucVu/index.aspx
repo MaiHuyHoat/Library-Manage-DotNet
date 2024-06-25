@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="QLTV.Module.BaoCao.TinhHinhPhucVu.index" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <table class="w-100">
+    &nbsp;<table class="w-100">
         <tr>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
