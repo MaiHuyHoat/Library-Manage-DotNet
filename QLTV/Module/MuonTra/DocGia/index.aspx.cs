@@ -149,9 +149,7 @@ namespace QLTV.Module.MuonTra.DocGia
                 model.BorrowedTime = int.Parse(this.TextBoxSoNgay.Text);
                 model.StartDay = DateTime.Parse(this.TextBoxNgayTao.Text);
                 model.EndDay =  DateTime.Parse(this.TextBoxNgayHetHan.Text);
-                model.RoleId = (from RoleReader in dbContext.RoleReader
-                                where RoleReader.Name.Equals(this.DropDownListChucVu.SelectedItem.ToString())
-                                select RoleReader.Id).FirstOrDefault();
+                model.RoleId = dbContext.RoleReader.Where(rr=>rr.Name.ToLower().Contains(this.DropDownListChucVu.SelectedItem.Text.ToString().ToLower())).Select(rr=>rr.Id).FirstOrDefault();
                 try
                 {
                     var query = dbContext.Reader.FirstOrDefault(r => r.IdentityCard == model.IdentityCard);
