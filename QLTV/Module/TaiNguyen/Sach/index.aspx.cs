@@ -35,7 +35,6 @@ namespace QLTV.Module.TaiNguyen.Sach
                 setComboboxCreatedDate();
               
             }
-            
         }
         public string getDrictoryApp()
         {
@@ -58,8 +57,22 @@ namespace QLTV.Module.TaiNguyen.Sach
             {
                 if (constraint.TryGetValue("name", out string name))
                     query = query.Where(data => data.book.Name.ToLower().Contains(name.ToLower()));
-              
-                    
+
+                if (constraint.TryGetValue("authorName", out string authorName))
+                    query = query.Where(data => data.author.Name.ToLower().Contains(authorName.ToLower()));
+
+                if (constraint.TryGetValue("categoryName", out string categoryName))
+                    query = query.Where(data => data.category.Name.ToLower().Contains(categoryName.ToLower()));
+
+                if (constraint.TryGetValue("createdDate", out string createdDate))
+                {
+                    if (createdDate.Equals("asc", StringComparison.OrdinalIgnoreCase))
+                        query = query.OrderByDescending(data => data.book.CreateDay);
+
+                    if (createdDate.Equals("desc", StringComparison.OrdinalIgnoreCase))
+                        query = query.OrderBy(data => data.book.CreateDay);
+                }
+                
             }
             int totalRecord= query.Count();
             // Apply pagination using Skip and Take
@@ -74,7 +87,8 @@ namespace QLTV.Module.TaiNguyen.Sach
                 Category = data.category.Name ?? "Trống",
                 Author = data.author.Name ?? "Trống",
                 Price = data.book.Price.ToString(),
-                CreatedDate = data.book.CreateDay.ToString("dd-MM-yyyy HH:mm:ss")
+                CreatedDate = data.book.CreateDay.ToString("dd-MM-yyyy HH:mm:ss"),
+                PublishYear = data.book.PublicationYear.ToString("dd-MM-yyyy HH:mm:ss"),
             }).ToList();
 
             DataTable dataTable = new DataTable();
@@ -85,6 +99,7 @@ namespace QLTV.Module.TaiNguyen.Sach
             dataTable.Columns.Add("Tên Tác giả", typeof(string));
             dataTable.Columns.Add("Đơn Giá", typeof(string));
             dataTable.Columns.Add("Số lượng", typeof(string));
+            dataTable.Columns.Add("Năm xuất bản",typeof(string));
             dataTable.Columns.Add("Ngày tạo", typeof(string));
             foreach (SachShow ss in listData)
             {
@@ -92,7 +107,7 @@ namespace QLTV.Module.TaiNguyen.Sach
               
                 dataTable.Rows.Add(ss.Id.ToString(),
                      ss.PathImage
-                    , ss.Name, ss.Category, ss.Author, ss.Price, ss.Amount, ss.CreatedDate);
+                    , ss.Name, ss.Category, ss.Author, ss.Price, ss.Amount,ss.PublishYear, ss.CreatedDate);
             }
             GridViewSach.DataSource = dataTable;
             GridViewSach.DataBind();
@@ -158,6 +173,16 @@ namespace QLTV.Module.TaiNguyen.Sach
         }
         protected void Button1_Click(object sender, EventArgs e)
         {
+            Dictionary<string, string> constraint = new Dictionary<string, string>();
+            if (this.DropDownListNgayTaoDS.SelectedIndex != 0)
+            {
+                if (this.DropDownListNgayTaoDS.SelectedIndex == 1) constraint.Add("createdDate", "desc");
+                if (this.DropDownListNgayTaoDS.SelectedIndex == 2) constraint.Add("createdDate", "asc");
+            }
+            if (this.DropDownListTacGiaDS.SelectedIndex != 0) constraint.Add("authorName", this.DropDownListTacGiaDS.SelectedItem.ToString());
+            if (this.DropDownListTheLoaiDS.SelectedIndex != 0) constraint.Add("categoryName", this.DropDownListTheLoaiDS.SelectedItem.ToString());
+            if (!string.IsNullOrEmpty(this.TextBoxSearch.Text)) constraint.Add("name", this.TextBoxSearch.Text);
+            this.loadData(constraint);
 
         }
 
@@ -175,7 +200,10 @@ namespace QLTV.Module.TaiNguyen.Sach
                this.DropDownListNhaXuatBan.SelectedIndex == 0
                ||
                this.DropDownListTacGia.SelectedIndex == 0
-
+               ||
+               string.IsNullOrEmpty(this.TextBoxNamXuatBan.Text)
+               ||
+               !FileUploadImage.HasFile
                )
             {
                 
@@ -205,7 +233,7 @@ namespace QLTV.Module.TaiNguyen.Sach
                  
                     string categoryName=this.DropDownListTheLoai.SelectedItem.ToString();   
                     model.CategoryId = dbContext.Category.Where(c => c.Name.Equals(categoryName, StringComparison.OrdinalIgnoreCase)).Select(c => c.Id).FirstOrDefault();
-                    model.PublicationYear = DateTime.Now;
+                    model.PublicationYear = DateTime.Parse(TextBoxNamXuatBan.Text);
                   
                
                     string destinationPath = Path.Combine(this.destinationFolder, model.Image);
@@ -230,7 +258,9 @@ namespace QLTV.Module.TaiNguyen.Sach
                 string.IsNullOrEmpty(TextBoxID.Text) ||
                 string.IsNullOrEmpty(TextBoxSoLuong.Text)|| 
                 string.IsNullOrEmpty(TextBoxSoTrang.Text)||
-                string.IsNullOrEmpty(TextBoxGia.Text))
+                string.IsNullOrEmpty(TextBoxGia.Text)||
+                string.IsNullOrEmpty(TextBoxNamXuatBan.Text)||
+                !FileUploadImage.HasFile)
             {
                 ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('Bạn cần nhập đủ thông tin ')", true);
             }
@@ -260,6 +290,8 @@ namespace QLTV.Module.TaiNguyen.Sach
                 model.CategoryId = dbContext.Category.Where(c => c.Name.Equals(categoryName, StringComparison.OrdinalIgnoreCase)).Select(c => c.Id).FirstOrDefault();
                 string destinationPath = Path.Combine(this.destinationFolder, model.Image);
                 this.FileUploadImage.SaveAs(destinationPath);
+
+                model.PublicationYear = DateTime.Parse(TextBoxNamXuatBan.Text);
 
                 try
                 {
@@ -319,6 +351,7 @@ namespace QLTV.Module.TaiNguyen.Sach
             DropDownListNhaXuatBan.SelectedItem.Text = "Chọn nhà xuất bản";
             DropDownListTacGia.SelectedItem.Text = "Tất cả";
             DropDownListTheLoai.SelectedItem.Text = "Tất cả";
+            TextBoxNamXuatBan.Text = "";
         }
 
         protected void GridViewSach_SelectedIndexChanged(object sender, EventArgs e)
@@ -368,6 +401,7 @@ namespace QLTV.Module.TaiNguyen.Sach
                 Author = data.author.Name,
                 Publisher = data.publisher.Name,
                 Price = data.book.Price.ToString(),
+                PublishYear = data.book.PublicationYear.ToString(),
             }).ToList();
             List<Publisher> list = dbContext.Publisher.ToList();
             if (GridViewSach.SelectedRow != null) // Check for selected row
@@ -390,6 +424,8 @@ namespace QLTV.Module.TaiNguyen.Sach
                     DropDownListTheLoai.SelectedItem.Text = selectedBook.Category; // Assuming you have logic to set selected value
                     TextBoxGia.Text = selectedBook.Price;
                     //string destinationPath = selectedBook.PathImage;
+                    ImageButtonBook.ImageUrl = selectedBook.PathImage;
+                    TextBoxNamXuatBan.Text = selectedBook.PublishYear.ToString();
                 }
             }
         }

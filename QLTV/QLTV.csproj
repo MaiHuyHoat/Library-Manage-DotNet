@@ -110,6 +110,9 @@
       <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
+    <Reference Include="Packable, Version=0.6.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Packable.6.2.0\lib\net46\Packable.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
       <HintPath>..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
@@ -223,6 +226,7 @@
     <Content Include="Global.asax" />
     <Content Include="Module\Login\Login.aspx" />
     <Content Include="Module\MuonTra\DocGia\index.aspx" />
+    <Content Include="Module\MuonTra\LichSu\index.aspx" />
     <Content Include="Module\MuonTra\MuonSach\index.aspx" />
     <Content Include="Module\TaiNguyen\NhaXuatBan\index.aspx" />
     <Content Include="Module\TaiNguyen\Sach\index.aspx" />
@@ -315,15 +319,11 @@
     <Content Include="Resources\img\chart\book.png" />
     <Content Include="Resources\img\chart\data-analysis.png" />
     <Content Include="Resources\img\chart\data-processing.png" />
-    <Content Include="Resources\img\chart\email.png" />
     <Content Include="Resources\img\chart\living-room-books-group %281%29.png" />
-    <Content Include="Resources\img\chart\login.jpg" />
     <Content Include="Resources\img\chart\magnifying-glass.png" />
     <Content Include="Resources\img\chart\more.png" />
     <Content Include="Resources\img\chart\open-book.png" />
-    <Content Include="Resources\img\chart\padlock.png" />
     <Content Include="Resources\img\chart\profit.png" />
-    <Content Include="Resources\img\chart\user.png" />
     <Content Include="Resources\img\logo\logo.png" />
     <Content Include="Resources\img\products\360-dong-tu-bat-quy-tac-day-du.jpg" />
     <Content Include="Resources\img\products\360-dong-tu-bat-quy-tac-day-du_1.jpg" />
@@ -3928,6 +3928,13 @@
     <Compile Include="Module\MuonTra\DocGia\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Module\MuonTra\LichSu\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\MuonTra\LichSu\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Module\MuonTra\MuonSach\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3988,7 +3995,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Module\MuonTra\LichSu\" />
+    <Folder Include="Module\Login\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

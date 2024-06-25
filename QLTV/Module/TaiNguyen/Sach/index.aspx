@@ -4,8 +4,8 @@
     <table class="w-100">
         <tr>
             <td style="width: 446px">&nbsp;</td>
-            <td style="width: 110px">&nbsp;</td>
-            <td style="width: 338px">&nbsp;</td>
+            <td style="width: 110px" colspan="3">&nbsp;</td>
+            <td style="width: 244px">&nbsp;</td>
             <td style="width: 135px">&nbsp;</td>
             <td>&nbsp;</td>
             <td style="width: 39px">&nbsp;</td>
@@ -14,32 +14,36 @@
         </tr>
         <tr>
             <td style="width: 446px">&nbsp;</td>
-            <td style="width: 110px">&nbsp;</td>
-            <td style="width: 338px">&nbsp;</td>
+            <td style="width: 110px" colspan="3">&nbsp;</td>
+            <td style="width: 244px">&nbsp;</td>
             <td style="width: 135px">&nbsp;</td>
             <td>&nbsp;</td>
             <td style="width: 39px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 446px;"></td>
-            <td colspan="5" style="background-color: rgb(75, 83, 102)">
-                <asp:Label ID="Label14" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Thao tác" ForeColor="White"></asp:Label>
+            <td colspan="7" style="background-color: rgb(75, 83, 102)">
+                <asp:Label ID="Label14" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Quản lí sách" ForeColor="White"></asp:Label>
             </td>
             <td rowspan="2" style="width: 67px">&nbsp;</td>
             <td rowspan="2" style="width: 122px">&nbsp;</td>
         </tr>
         <tr>
             <td style="width: 446px; height: 21px;"></td>
+            <td style="width: 95px; height: 21px;"></td>
+            <td style="width: 95px; height: 21px;"></td>
             <td style="width: 110px; height: 21px;"></td>
-            <td style="width: 338px; height: 21px;"></td>
+            <td style="width: 244px; height: 21px;"></td>
             <td style="width: 135px; height: 21px;"></td>
             <td style="height: 21px; "></td>
             <td style="width: 39px; height: 21px;"></td>
         </tr>
         <tr>
             <td style="width: 446px">&nbsp;</td>
+            <td style="width: 95px">&nbsp;</td>
+            <td style="width: 95px">&nbsp;</td>
             <td style="width: 110px">&nbsp;</td>
-            <td style="width: 338px">&nbsp;</td>
+            <td style="width: 244px">&nbsp;</td>
             <td style="width: 135px">&nbsp;</td>
             <td>&nbsp;</td>
             <td style="width: 39px"></td>
@@ -48,11 +52,16 @@
         </tr>
         <tr>
             <td style="height: 21px; width: 446px"></td>
+            <td style="width: 95px" rowspan="4">
+                &nbsp;</td>
+            <td style="width: 95px" rowspan="4">
+                <asp:ImageButton ID="ImageButtonBook" runat="server" Height="174px" Width="162px" ImageUrl="~/Resources/image/book.png" />
+            </td>
             <td style="height: 21px; width: 110px">
                 <asp:Label ID="Label5" runat="server" Font-Bold="True" Text="Tên sách : "></asp:Label>
             </td>
-            <td style="width: 338px; height: 21px">
-                <asp:TextBox ID="TextBoxTen" runat="server" Width="220px" OnTextChanged="TextBoxTen_TextChanged"></asp:TextBox>
+            <td style="width: 244px; height: 21px">
+                <asp:TextBox ID="TextBoxTen" runat="server" Width="204px" OnTextChanged="TextBoxTen_TextChanged"></asp:TextBox>
             </td>
             <td style="width: 135px; height: 21px">
                 <asp:Label ID="Label9" runat="server" Font-Bold="True" Text="Giá : "></asp:Label>
@@ -69,8 +78,8 @@
             <td style="width: 110px; height: 32px;">
                 <asp:Label ID="Label7" runat="server" Font-Bold="True" Text="Thể loại : "></asp:Label>
             </td>
-            <td style="width: 338px; height: 32px;">
-                <asp:DropDownList ID="DropDownListTheLoai" runat="server" Width="129px">
+            <td style="width: 244px; height: 32px;">
+                <asp:DropDownList ID="DropDownListTheLoai" runat="server" Width="208px">
                 </asp:DropDownList>
             </td>
             <td style="width: 135px; height: 32px;">
@@ -90,8 +99,8 @@
             <td style="width: 110px; height: 25px;">
                 <asp:Label ID="Label8" runat="server" Font-Bold="True" Text="Tác giả:"></asp:Label>
             </td>
-            <td style="width: 338px; height: 25px;">
-                <asp:DropDownList ID="DropDownListTacGia" runat="server" Width="129px">
+            <td style="width: 244px; height: 25px;">
+                <asp:DropDownList ID="DropDownListTacGia" runat="server" Width="207px">
                 </asp:DropDownList>
             </td>
             <td style="width: 135px; height: 25px;">
@@ -109,16 +118,15 @@
             <td style="width: 110px; height: 21px;">
                 <asp:Label ID="Label13" runat="server" Font-Bold="True" Text="Nhà xuất bản: "></asp:Label>
             </td>
-            <td style="width: 338px; height: 21px">
-                <asp:DropDownList ID="DropDownListNhaXuatBan" runat="server" Width="129px">
+            <td style="width: 244px; height: 21px">
+                <asp:DropDownList ID="DropDownListNhaXuatBan" runat="server" Width="207px">
                 </asp:DropDownList>
             </td>
             <td style="width: 135px; height: 21px;">
-                <asp:Label ID="Label11" runat="server" Font-Bold="True" Text="Ảnh : "></asp:Label>
-                <asp:Image ID="Image1" runat="server" />
+                <asp:Label ID="Label19" runat="server" Font-Bold="True" Text="Năm xuất bản : "></asp:Label>
             </td>
             <td style="height: 21px">
-                <asp:FileUpload ID="FileUploadImage" runat="server" />
+                <asp:TextBox ID="TextBoxNamXuatBan" runat="server" Width="220px" TextMode="DateTimeLocal"></asp:TextBox>
             </td>
             <td style="width: 39px; height: 21px;">
                 <asp:Button ID="ButtonHuy0" runat="server" CssClass="btn btn-secondary mt-2" OnClick="ButtonHuy_Click" Text="Huỷ" />
@@ -128,25 +136,32 @@
         </tr>
         <tr>
             <td style="height: 25px; width: 446px;"></td>
+            <td style="width: 95px; height: 25px;">
+                &nbsp;</td>
+            <td style="width: 95px; height: 25px;">
+                <asp:FileUpload ID="FileUploadImage" runat="server" Width="158px" />
+            </td>
             <td style="width: 110px; height: 25px;">
-                <asp:Label ID="Label4" runat="server" Font-Bold="True" Text="ID : " Visible="False"></asp:Label>
-            </td>
-            <td style="width: 338px; height: 25px;">
-                <asp:TextBox ID="TextBoxID" runat="server" Width="220px" Visible="False"></asp:TextBox>
-            </td>
+                &nbsp;</td>
+            <td style="width: 244px; height: 25px;">
+                &nbsp;</td>
             <td style="width: 135px; height: 25px;">
-                </td>
+                &nbsp;</td>
             <td style="height: 25px">
-                </td>
+                &nbsp;</td>
             <td style="height: 25px; width: 39px"></td>
         </tr>
         <tr>
             <td style="height: 27px; width: 446px;"></td>
+            <td style="width: 95px; height: 27px;"></td>
+            <td style="width: 95px; height: 27px;">&nbsp;</td>
             <td style="width: 110px; height: 27px;"></td>
-            <td style="width: 338px; height: 27px;">&nbsp;</td>
+            <td style="width: 244px; height: 27px;">&nbsp;</td>
             <td style="width: 135px; height: 27px;">
-                &nbsp;</td>
+                <asp:Label ID="Label4" runat="server" Font-Bold="True" Text="ID : " Visible="False"></asp:Label>
+            </td>
             <td style="height: 27px;">
+                <asp:TextBox ID="TextBoxID" runat="server" Width="220px" Visible="False"></asp:TextBox>
                 </td>
             <td style="height: 27px; width: 39px;"></td>
             <td rowspan="2" style="width: 67px">&nbsp;</td>
@@ -154,7 +169,7 @@
         </tr>
         <tr>
     <td style="width: 446px;"></td>
-    <td colspan="5" style="background-color: rgb(75, 83, 102)">
+    <td colspan="7" style="background-color: rgb(75, 83, 102)">
         <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="X-Large" Text="Danh sách " ForeColor="White"></asp:Label>
     </td>
     <td rowspan="2" style="width: 67px">&nbsp;</td>
@@ -162,8 +177,10 @@
 </tr>
         <tr>
             <td style="width: 446px">&nbsp;</td>
+            <td style="width: 95px; height: 24px;" rowspan="2"></td>
+            <td style="width: 95px; height: 24px;" rowspan="2"></td>
             <td style="width: 110px; height: 24px;" rowspan="2"></td>
-            <td style="width: 338px; height: 24px;" rowspan="2"></td>
+            <td style="width: 244px; height: 24px;" rowspan="2"></td>
             <td style="width: 135px; height: 24px;" rowspan="2"></td>
             <td style="height: 24px; " rowspan="2"></td>
             <td style="height: 24px; width: 39px" rowspan="2"></td>
@@ -175,10 +192,14 @@
         </tr>
         <tr>
             <td style="width: 446px">&nbsp;</td>
+            <td style="width: 95px">
+                &nbsp;</td>
+            <td style="width: 95px">
+                &nbsp;</td>
             <td style="width: 110px">
                 <asp:Label ID="Label16" runat="server" Font-Bold="True" Text="Ngày tạo :"></asp:Label>
             </td>
-            <td style="width: 338px">
+            <td style="width: 244px">
                 <asp:DropDownList ID="DropDownListNgayTaoDS" runat="server" Width="142px">
                 </asp:DropDownList>
             </td>
@@ -197,10 +218,14 @@
         </tr>
         <tr>
             <td style="width: 446px">&nbsp;</td>
+            <td style="width: 95px; height: 39px;">
+                &nbsp;</td>
+            <td style="width: 95px; height: 39px;">
+                &nbsp;</td>
             <td style="width: 110px; height: 39px;">
                 <asp:Label ID="Label18" runat="server" Font-Bold="True" Text="Thể loại :"></asp:Label>
             </td>
-            <td style="width: 338px; height: 39px;">
+            <td style="width: 244px; height: 39px;">
                 <asp:DropDownList ID="DropDownListTheLoaiDS" runat="server" Width="144px">
                 </asp:DropDownList>
             </td>
@@ -216,8 +241,10 @@
         </tr>
           <tr>
       <td style="width: 446px; height: 43px;"></td>
+      <td style="width: 95px; height: 43px;"></td>
+      <td style="width: 95px; height: 43px;"></td>
       <td style="width: 110px; height: 43px;"></td>
-      <td style="width: 338px; height: 43px;"></td>
+      <td style="width: 244px; height: 43px;"></td>
       <td style="height: 43px;"></td>
       <td style="height: 43px; "></td>
       <td style="height: 43px"></td>
@@ -226,7 +253,7 @@
         <tr>
             <td style="width: 446px">&nbsp;</td>
            <%-- <td style="width: 679px">&nbsp;</td>--%>
-            <td colspan="5" rowspan="10">
+            <td colspan="7" rowspan="10">
                 <asp:GridView ID="GridViewSach" runat="server" AllowSorting="True" AutoGenerateSelectButton="True" CellPadding="4" Width="1161px" AutoGenerateColumns="False" ForeColor="#333333" GridLines="None" OnPageIndexChanged="GridViewSach_PageIndexChanged" OnPageIndexChanging="GridViewSach_PageIndexChanging" AllowPaging="True" OnSelectedIndexChanged="GridViewSach_SelectedIndexChanged1">
                     <AlternatingRowStyle BackColor="White" />
                     <Columns>
@@ -241,6 +268,7 @@
                         <asp:BoundField DataField="Tên Tác giả" HeaderText="Tên Tác giả" />
                         <asp:BoundField DataField="Đơn Giá" HeaderText="Đơn Giá" />
                         <asp:BoundField DataField="Số lượng" HeaderText="Số lượng" />
+                        <asp:BoundField DataField="Năm xuất bản" HeaderText="Năm xuất bản" />
                         <asp:BoundField DataField="Ngày tạo" HeaderText="Ngày tạo" />
                     </Columns>
                     <EditRowStyle BackColor="#2461BF" />
@@ -300,7 +328,7 @@
         </tr>
         <tr>
             <td style="width: 446px">&nbsp;</td>
-            <td style="width: 110px">&nbsp;</td>
+            <td style="width: 110px" colspan="3">&nbsp;</td>
             <td colspan="2">&nbsp;</td>
             <td>&nbsp;</td>
             <td style="width: 39px">&nbsp;</td>

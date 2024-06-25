@@ -25,7 +25,7 @@
             <td colspan="7" style="background-color: rgb(75, 83, 102); height: 28px;">
                 <asp:Label ID="Label1" runat="server" Font-Bold="True" Font-Size="X-Large" ForeColor="White" Text="Thống kê tình hình phục vụ sách của thư viện (6 tháng gần đây)"></asp:Label>
             </td>
-            <td colspan="7" style="background-color: rgb(75, 83, 102); height: 28px;">
+            <td colspan="7" style="background-color: rgb(75, 83, 102); height: 28px;" >
                 <asp:Button ID="ButtonExport" runat="server" CssClass="btn btn-success" Text="Excel" Width="84px" OnClick="ButtonExport_Click" />
             </td>
             <td style="height: 28px"></td>
