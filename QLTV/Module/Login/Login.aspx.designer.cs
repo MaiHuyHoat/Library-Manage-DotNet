@@ -60,13 +60,13 @@ namespace QLTV.Module.Login
         protected global::System.Web.UI.WebControls.Image Image7;
 
         /// <summary>
-        /// TextBox1 control.
+        /// TextBoxUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxUserName;
 
         /// <summary>
         /// Image6 control.
@@ -78,13 +78,13 @@ namespace QLTV.Module.Login
         protected global::System.Web.UI.WebControls.Image Image6;
 
         /// <summary>
-        /// TextBox2 control.
+        /// TextBoxPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxPassword;
 
         /// <summary>
         /// Button1 control.

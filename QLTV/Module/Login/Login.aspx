@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="QLTV.Module.Login.Login" %>
+﻿<%@ Page Async="true" Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="QLTV.Module.Login.Login" %>
 
 <!DOCTYPE html>
 
@@ -87,9 +87,10 @@
             width: 83px;
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </head>
 <body style="height: 670px">
-    <form id="form1" runat="server">
+    <form id="form1" runat="server" class="container">
         <asp:Panel ID="Panel1" runat="server" BackColor="White" Height="652px" Width="1190px">
             <table cellpadding="0" cellspacing="0" class="auto-style1">
                 <tr>
@@ -126,7 +127,7 @@
                                                 <asp:Image ID="Image7" runat="server" ImageUrl="~/Resources/img/chart/user.png" Height="29px" Width="27px" />
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="TextBox1" runat="server" BackColor="#CCCCCC" Font-Size="X-Large" ForeColor="Gray" Height="41px" Width="340px"></asp:TextBox>
+                                                <asp:TextBox ID="TextBoxUserName" runat="server" BackColor="#CCCCCC" Font-Size="X-Large" placeholder="Tên đăng nhập" ForeColor="Gray" Height="41px" Width="340px"></asp:TextBox>
                                             </td>
                                         </tr>
                                     </table>
@@ -143,7 +144,7 @@
                                                 <asp:Image ID="Image6" runat="server" Height="27px" ImageUrl="~/Resources/img/chart/padlock.png" Width="30px" />
                                             </td>
                                             <td>
-                                                <asp:TextBox ID="TextBox2" runat="server" BackColor="#CCCCCC" Font-Size="X-Large" placeholder="tên đăng nhập" ForeColor="Gray" Height="41px" Width="340px"></asp:TextBox>
+                                                <asp:TextBox ID="TextBoxPassword" runat="server" BackColor="#CCCCCC" Font-Size="X-Large" placeholder="Mật khẩu" ForeColor="Gray" Height="41px" Width="340px" TextMode="Password"></asp:TextBox>
                                             </td>
                                         </tr>
                                     </table>
@@ -157,7 +158,7 @@
                                     <table cellpadding="0" cellspacing="0" class="auto-style20">
                                         <tr>
                                             <td>
-                                                <asp:Button ID="Button1" runat="server" BackColor="#009900" CssClass="auto-style33" Font-Bold="True" Font-Size="X-Large" ForeColor="White" Height="50px" Text="Đăng nhập" Width="391px" />
+                                                <asp:Button ID="Button1" runat="server" BackColor="#009900" CssClass="auto-style33" Font-Bold="True" Font-Size="X-Large" ForeColor="White" Height="50px" Text="Đăng nhập" Width="391px" OnClick="Button1_Click" />
                                             </td>
                                         </tr>
                                     </table>
@@ -194,5 +195,7 @@
             </table>
         </asp:Panel>
     </form>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </body>
 </html>
