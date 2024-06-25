@@ -225,6 +225,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Module\MuonTra\DocGia\index.aspx" />
+    <Content Include="Module\MuonTra\LichSu\index.aspx" />
     <Content Include="Module\MuonTra\MuonSach\index.aspx" />
     <Content Include="Module\TaiNguyen\NhaXuatBan\index.aspx" />
     <Content Include="Module\TaiNguyen\Sach\index.aspx" />
@@ -3919,6 +3920,13 @@
     <Compile Include="Module\MuonTra\DocGia\index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Module\MuonTra\LichSu\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Module\MuonTra\LichSu\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Module\MuonTra\MuonSach\index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -3980,7 +3988,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Module\Login\" />
-    <Folder Include="Module\MuonTra\LichSu\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

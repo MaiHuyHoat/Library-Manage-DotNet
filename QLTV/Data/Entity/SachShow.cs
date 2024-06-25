@@ -18,6 +18,8 @@ namespace QLTV.Data.Entity
         public string Publisher { get; set; }
         public string Price { get; set; }
         public String CreatedDate { get; set; }
-       
+        public String PublishYear { get; set; }
+
+
     }
 }
