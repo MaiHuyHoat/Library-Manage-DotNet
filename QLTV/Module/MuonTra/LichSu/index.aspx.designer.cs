@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace QLTV.Module.TaiNguyen.Sach
+namespace QLTV.Module.MuonTra.LichSu
 {
 
 
@@ -60,6 +60,24 @@ namespace QLTV.Module.TaiNguyen.Sach
         protected global::System.Web.UI.WebControls.Label Label9;
 
         /// <summary>
+        /// TextBoxNguoiMuon control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxNguoiMuon;
+
+        /// <summary>
+        /// Label26 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label26;
+
+        /// <summary>
         /// TextBoxGia control.
         /// </summary>
         /// <remarks>
@@ -67,33 +85,6 @@ namespace QLTV.Module.TaiNguyen.Sach
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox TextBoxGia;
-
-        /// <summary>
-        /// ButtonThem control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonThem;
-
-        /// <summary>
-        /// Label7 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label7;
-
-        /// <summary>
-        /// DropDownListTheLoai control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListTheLoai;
 
         /// <summary>
         /// Label10 control.
@@ -105,22 +96,31 @@ namespace QLTV.Module.TaiNguyen.Sach
         protected global::System.Web.UI.WebControls.Label Label10;
 
         /// <summary>
-        /// TextBoxSoLuong control.
+        /// TextBoxCmt control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxSoLuong;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxCmt;
 
         /// <summary>
-        /// ButtonSua control.
+        /// Label7 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonSua;
+        protected global::System.Web.UI.WebControls.Label Label7;
+
+        /// <summary>
+        /// DropDownTinhTrang control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList DropDownTinhTrang;
 
         /// <summary>
         /// Label8 control.
@@ -132,40 +132,13 @@ namespace QLTV.Module.TaiNguyen.Sach
         protected global::System.Web.UI.WebControls.Label Label8;
 
         /// <summary>
-        /// DropDownListTacGia control.
+        /// DropDownListChucVu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListTacGia;
-
-        /// <summary>
-        /// Label12 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label12;
-
-        /// <summary>
-        /// TextBoxSoTrang control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxSoTrang;
-
-        /// <summary>
-        /// ButtonXoa control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonXoa;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListChucVu;
 
         /// <summary>
         /// Label13 control.
@@ -177,13 +150,13 @@ namespace QLTV.Module.TaiNguyen.Sach
         protected global::System.Web.UI.WebControls.Label Label13;
 
         /// <summary>
-        /// DropDownListNhaXuatBan control.
+        /// TextBoxHanTra control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListNhaXuatBan;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxHanTra;
 
         /// <summary>
         /// Label19 control.
@@ -195,31 +168,121 @@ namespace QLTV.Module.TaiNguyen.Sach
         protected global::System.Web.UI.WebControls.Label Label19;
 
         /// <summary>
-        /// TextBoxNamXuatBan control.
+        /// TextBoxSoSach control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBoxNamXuatBan;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxSoSach;
 
         /// <summary>
-        /// ButtonHuy0 control.
+        /// Label21 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button ButtonHuy0;
+        protected global::System.Web.UI.WebControls.Label Label21;
 
         /// <summary>
-        /// FileUploadImage control.
+        /// TextBoxSoNgay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.FileUpload FileUploadImage;
+        protected global::System.Web.UI.WebControls.TextBox TextBoxSoNgay;
+
+        /// <summary>
+        /// Label22 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label22;
+
+        /// <summary>
+        /// Label18 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label18;
+
+        /// <summary>
+        /// TextBoxNgayTra control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxNgayTra;
+
+        /// <summary>
+        /// Label20 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label20;
+
+        /// <summary>
+        /// TextBoxSoSachDaMuon control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxSoSachDaMuon;
+
+        /// <summary>
+        /// Label23 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label23;
+
+        /// <summary>
+        /// TextBoxSoNgay1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxSoNgay1;
+
+        /// <summary>
+        /// Label24 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label24;
+
+        /// <summary>
+        /// Label25 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label25;
+
+        /// <summary>
+        /// TextBoxMoney control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TextBoxMoney;
 
         /// <summary>
         /// Label4 control.
@@ -240,6 +303,24 @@ namespace QLTV.Module.TaiNguyen.Sach
         protected global::System.Web.UI.WebControls.TextBox TextBoxID;
 
         /// <summary>
+        /// ButtonSua control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonSua;
+
+        /// <summary>
+        /// ButtonHuy0 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button ButtonHuy0;
+
+        /// <summary>
         /// Label1 control.
         /// </summary>
         /// <remarks>
@@ -247,69 +328,6 @@ namespace QLTV.Module.TaiNguyen.Sach
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label1;
-
-        /// <summary>
-        /// Label16 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label16;
-
-        /// <summary>
-        /// DropDownListNgayTaoDS control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListNgayTaoDS;
-
-        /// <summary>
-        /// Label15 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label15;
-
-        /// <summary>
-        /// DropDownListTacGiaDS control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListTacGiaDS;
-
-        /// <summary>
-        /// Button1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-
-        /// <summary>
-        /// Label18 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label18;
-
-        /// <summary>
-        /// DropDownListTheLoaiDS control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownListTheLoaiDS;
 
         /// <summary>
         /// Label17 control.
@@ -330,12 +348,21 @@ namespace QLTV.Module.TaiNguyen.Sach
         protected global::System.Web.UI.WebControls.TextBox TextBoxSearch;
 
         /// <summary>
-        /// GridViewSach control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridViewSach;
+        protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// GridViewLichSu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView GridViewLichSu;
     }
 }
